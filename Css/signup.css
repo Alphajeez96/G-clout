@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+:root {
+    --main-color: #006EF0;
+    --main-font: 'Roboto', sans-serif;
+}
+
+.header {
+    font-family: var(--main-font);
+    font-weight: 900;
+}
+
+.sub__text {
+    font-family: var(--main-font);
+    font-weight: normal;
+}
+
+.pol-bg {
+    background-image: url('../Assets/General/pol-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+label {
+    font-family: var(--main-font);
+    letter-spacing: 0.05em;
+    color: #1A2A2F;
+    opacity: 0.75;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.border-b-3 {
+    border-bottom-width: 3px;
+}
+
+::placeholder {
+    font-family: var(--main-font);
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    color: red;
+}
