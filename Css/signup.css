@@ -85,3 +85,13 @@ a {
         margin-right: 2rem;
     }
 }
+
+@media screen and (max-width: 1024px) and (min-width: 767px) {
+    .pol-bg {
+        display: none;
+    }
+    .arrow {
+        margin-left: 8rem;
+        margin-right: 2rem;
+    }
+}

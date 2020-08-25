@@ -5,176 +5,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./Css/create-profile.css" rel="stylesheet">
+    <link href="./Css/meet-executives.css" rel="stylesheet">
     <!-- Tailwind here -->
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <title>Create-Profile -</title>
+    <title>meet-executives -</title>
 </head>
 
 <body>
-    <!-- Create Profile area -->
+
     <div class="md:w-full sm:w-full lg:px-32 md:pl-40 sm:pl-20 lg:w-3/4 mt-16  mob__center">
 
 
-        <!-- form here -->
+        <!-- Executives here -->
         <div>
 
-            <h3 class="header text-3xl ">Create profile.</h3>
-            <p class="mt-3 text-base sub__text">We need some more info to set up your GClout <br> profile.</p>
+            <h3 class="header text-3xl ">Meet your Leaders</h3>
+            <p class="mt-3 text-base sub__text">You’ll be receiving regular updates from them on <br> your GClout feed.</p>
 
             <div>
-                <form class="w-full " method="POST" action="">
+                <!-- <form class="w-full " method="POST" action=""> -->
 
-                    <div class="flex flex-wrap -mx-3 mt-6">
-                        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                            <div class="bg-gray-100 ">
-                                <label class="block  tracking-wide px-2 pt-1" for="fnmae">
-                                    First name
-                                </label>
-                                <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="fname" type="text" required placeholder="John">
-                            </div>
+                <div class="flex flex-wrap  mt-6">
+
+                    <div class="sm:flex relative sm:items-center mt-6">
+                        <img src="./Assets/Vectors/president.png" alt="President">
+
+
+                        <div class="pt-2 sm:mt-0 sm:ml-4 text-center sm:text-left">
+                            <p class="text-base political__officer leading-tight">Darlene Robertson</p>
+                            <p class="text-xs leading-tight portfolio pt-1">President, Federal Republic of Nigeria </p>
+
                         </div>
 
-                        <div class="w-full md:w-1/2 px-3  md:mb-0">
-                            <div class="bg-gray-100 ">
-                                <label class="block  tracking-wide px-2 pt-1" for="lname">
-                                    Last name
-                                </label>
-                                <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="lname" type="text" required placeholder="Doe">
-                            </div>
-                        </div>
                     </div>
 
-                    <div class="flex flex-wrap -mx-3 mt-6">
-                        <div class="w-full md:w-1/2 relative inline-block px-3 mb-6 md:mb-0">
-                            <div class="bg-gray-100 ">
-                                <label class="block  tracking-wide px-2 pt-1" for="lname">
+                    <div class="w-full md:w-1/2 px-3  md:mb-0">
+                        <div class="bg-gray-100 ">
+                            <label class="block  tracking-wide px-2 pt-1" for="lname">
+                                    Last name
+                                </label>
+                            <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="lname" type="text" required placeholder="Doe">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap -mx-3 mt-6">
+                    <div class="w-full md:w-1/2 relative inline-block px-3 mb-6 md:mb-0">
+                        <div class="bg-gray-100 ">
+                            <label class="block  tracking-wide px-2 pt-1" for="lname">
                                     Nationality
                                 </label>
-                                <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
+                            <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
                                     <option>Select a nationality </option>
                                     <option>Option 2</option>
                                     <option>Option 3</option>
                                 </select>
 
-                                <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
-                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path opacity="0.75" d="M1 1L5 5L9 1" stroke="#1A2A2F" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="w-full md:w-1/2 relative inline-block px-3 md:mb-0">
-                            <div class="bg-gray-100 ">
-                                <label class="block  tracking-wide px-2 pt-1" for="lname">
+                    <div class="w-full md:w-1/2 relative inline-block px-3 md:mb-0">
+                        <div class="bg-gray-100 ">
+                            <label class="block  tracking-wide px-2 pt-1" for="lname">
                                     Country of residence
                                 </label>
-                                <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
+                            <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
                                     <option>Select a country </option>
                                     <option>Option 2</option>
                                     <option>Option 3</option>
                                 </select>
 
-                                <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
-                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path opacity="0.75" d="M1 1L5 5L9 1" stroke="#1A2A2F" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
-                                </div>
                             </div>
                         </div>
-
                     </div>
 
-                    <div class="flex flex-wrap -mx-3 mt-6">
-                        <div class="w-full md:w-1/2 relative inline-block px-3 mb-6 md:mb-0">
-                            <div class="bg-gray-100 ">
-                                <label class="block  tracking-wide px-2 pt-1" for="lname">
+                </div>
+
+                <div class="flex flex-wrap -mx-3 mt-6">
+                    <div class="w-full md:w-1/2 relative inline-block px-3 mb-6 md:mb-0">
+                        <div class="bg-gray-100 ">
+                            <label class="block  tracking-wide px-2 pt-1" for="lname">
                                     State of Interest
                                 </label>
-                                <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
+                            <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
                                     <option> Select a State </option>
                                     <option>Option 2</option>
                                     <option>Option 3</option>
                                 </select>
 
-                                <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
-                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path opacity="0.75" d="M1 1L5 5L9 1" stroke="#1A2A2F" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="w-full md:w-1/2 relative inline-block px-3  md:mb-0">
-                            <div class="bg-gray-100 ">
-                                <label class="block  tracking-wide px-2 pt-1" for="lname">
-                                    State of Origin
-                                </label>
-                                <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
-                                    <option> Select a State </option>
-                                    <option>Option 2</option>
-                                    <option>Option 3</option>
-                                </select>
-
-                                <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
-                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path opacity="0.75" d="M1 1L5 5L9 1" stroke="#1A2A2F" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" />
-                                    </svg>
-                                </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="flex flex-wrap -mx-3 mt-6">
-                        <div class="w-full md:w-1/2 relative inline-block px-3 mb-6 md:mb-0">
-                            <div class="bg-gray-100 ">
-                                <label class="block  tracking-wide px-2 pt-1" for="lname">
+                    <div class="w-full md:w-1/2 relative inline-block px-3  md:mb-0">
+                        <div class="bg-gray-100 ">
+                            <label class="block  tracking-wide px-2 pt-1" for="lname">
+                                    State of Origin
+                                </label>
+                            <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
+                                    <option> Select a State </option>
+                                    <option>Option 2</option>
+                                    <option>Option 3</option>
+                                </select>
+
+                            <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path opacity="0.75" d="M1 1L5 5L9 1" stroke="#1A2A2F" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap -mx-3 mt-6">
+                    <div class="w-full md:w-1/2 relative inline-block px-3 mb-6 md:mb-0">
+                        <div class="bg-gray-100 ">
+                            <label class="block  tracking-wide px-2 pt-1" for="lname">
                                     Local Government Area
                                 </label>
-                                <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
+                            <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
                                     <option>Select an L.G.A.</option>
                                     <option>Option 2</option>
                                     <option>Option 3</option>
                                 </select>
 
-                                <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
-                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path opacity="0.75" d="M1 1L5 5L9 1" stroke="#1A2A2F" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
-                                </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="w-full md:w-1/2 relative inline-block px-3  md:mb-0">
-                            <div class="bg-gray-100 ">
-                                <label class="block  tracking-wide px-2 pt-1" for="lname">
+                    <div class="w-full md:w-1/2 relative inline-block px-3  md:mb-0">
+                        <div class="bg-gray-100 ">
+                            <label class="block  tracking-wide px-2 pt-1" for="lname">
                                     Ward
                                 </label>
-                                <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
+                            <select class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
                                     <option>Select a ward </option>
                                     <option>Option 2</option>
                                     <option>Option 3</option>
                                 </select>
 
-                                <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
-                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <div class="pointer-events-none cursor-pointer  absolute inset-y-0 right-0 flex items-center px-5 pt-3 text-gray-700">
+                                <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path opacity="0.75" d="M1 1L5 5L9 1" stroke="#1A2A2F" stroke-width="2"
                                             stroke-linecap="round" stroke-linejoin="round" />
                                     </svg>
-                                </div>
                             </div>
                         </div>
-
                     </div>
 
-                    <div class="flex flex-wrap mt-6 mb-6">
-                        <button type="submit" class="onboarding__btn py-3 focus:outline-none inline-flex">
-                            <span class="text-white text-sm font-bold mx-4">Save info</span>
+                </div>
+
+                <div class="flex flex-wrap mt-6 mb-6">
+                    <button type="submit" class="onboarding__btn py-3 focus:outline-none inline-flex">
+                            <span class="text-white text-sm font-bold mx-4">Log in</span>
 
                             <svg class="mt-1 mx-5 " width="17" height="16" viewBox="0 0 17 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -184,7 +189,7 @@
                                     stroke-linecap="round" stroke-linejoin="round" />
                             </svg>
                         </button>
-                    </div>
+                </div>
                 </form>
             </div>
         </div>
