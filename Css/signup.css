@@ -4,13 +4,15 @@
     --main-font: 'Roboto', sans-serif;
 }
 
-.header {
+body {
     font-family: var(--main-font);
+}
+
+.header {
     font-weight: 900;
 }
 
 .sub__text {
-    font-family: var(--main-font);
     font-weight: normal;
 }
 
@@ -22,7 +24,6 @@
 }
 
 label {
-    font-family: var(--main-font);
     letter-spacing: 0.05em;
     color: #1A2A2F;
     opacity: 0.75;
@@ -35,7 +36,6 @@ label {
 }
 
 ::placeholder {
-    font-family: var(--main-font);
     color: #1A2A2F !important;
     font-weight: normal;
     font-size: 14px !important;
@@ -50,7 +50,6 @@ input {
 }
 
 span {
-    font-family: var(--main-font);
     color: #001218;
 }
 
@@ -64,13 +63,8 @@ a {
     border-radius: 16px;
 }
 
-.onboarding__btn span {
-    font-family: var(--main-font);
-}
-
 .question {
     color: var(--main-color);
-    font-family: var(--main-font);
 }
 
 .arrow {
@@ -81,5 +75,9 @@ a {
 @media screen and (max-width: 576px) and (min-width: 275px) {
     .mob__center {
         justify-content: center;
+    }
+    .arrow {
+        margin-left: 10rem;
+        margin-right: 2rem;
     }
 }
