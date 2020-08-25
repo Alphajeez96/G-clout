@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Css/signup.css" rel="stylesheet">
+    <!-- Tailwind here -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Create-Profile -</title>
+</head>
+
+<body>
+
+    <div class=" px-32 w-4/5 mt-16  mob__center">
+        <!-- Create Profile area -->
+
+        <!-- form here -->
+        <div>
+            <h3 class="header text-3xl ">Create profile.</h3>
+            <p class="mt-3 text-base sub__text">We need some more info to set up your GClout <br> profile.</p>
+            <div>
+                <form class="w-full " method="POST" action="">
+                    <div class="flex flex-wrap -mx-3 mt-6">
+                        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                            <div class="bg-gray-100 ">
+                                <label class="block  tracking-wide px-2 pt-1" for="email">
+                                    Email address
+                                </label>
+                                <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="email" type="email" required placeholder="renderblender@gmail.com">
+                            </div>
+                        </div>
+
+                        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                            <div class="bg-gray-100 ">
+                                <label class="block  tracking-wide px-2 pt-1" for="email">
+                                    Email address
+                                </label>
+                                <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="email" type="email" required placeholder="renderblender@gmail.com">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="flex flex-wrap mt-6">
+                        <label class="block  tracking-wide " for="date">
+                            <input class="leading-tight " type="checkbox">
+                            <span class="mx-1 text-xs font-medium">Remember me</span>
+                        </label>
+                    </div>
+
+                    <div class="flex  flex-wrap mt-6">
+                        <button class="onboarding__btn py-3 focus:outline-none inline-flex">
+                            <span class="text-white text-sm font-bold mx-4">Log in</span>
+
+                            <svg class="arrow " width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.0545 8H13.5933" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M8.8239 3.33337L13.5933 8.00004L8.8239 12.6667" stroke="white"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+
+                </form>
+
+                <div class="flex flex-wrap mt-6">
+                    <p class="question text-sm font-normal"> New to GClout? <a href="signup.html"> Sign up
+                            here</a></p>
+                </div>
+
+                <div class="flex flex-wrap mt-6 mb-12">
+                    <a href="forgot-password.html" class=" text-sm font-normal">Forgot password? </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
