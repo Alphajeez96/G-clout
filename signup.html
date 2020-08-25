@@ -12,9 +12,9 @@
 
 <body>
 
-    <div class="flex mb-4">
+    <div class="flex mob__center">
         <!-- signup area -->
-        <div class="w-1/2 px-40 pt-12 h-full">
+        <div class="lg:w-1/2 md:w-full sm:w-full lg:px-40 md:pl-40 sm:pl-20  pt-12">
             <!-- logo here -->
             <div>
                 <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,7 +28,7 @@
 
             <!-- form here -->
             <div>
-                <h3 class="header text-3xl mt-8">Sign Up.</h3>
+                <h3 class="header text-3xl font-clack mt-8">Sign Up.</h3>
                 <p class="mt-3 text-xs sub__text">Let’s set up a new account for you.</p>
                 <div>
                     <form class="w-full max-w-lg" method="POST" action="">
@@ -69,22 +69,38 @@
                         </div>
 
                         <div class="flex flex-wrap mt-6">
+                            <label class="block  tracking-wide " for="date">
+                                <input class="leading-tight " type="checkbox" required>
+                                <span class="mx-1 text-xs font-medium">I agree to the GClout’s <a href="">Terms and Conditions</a> </span>
+                            </label>
+                        </div>
 
-                            <label class="block  tracking-wide px-2 pt-1 " for="date">
-                                <input class="leading-tight" type="checkbox">
-                             <span>hhh</span>
-                                </label>
+                        <div class="flex  flex-wrap mt-6">
+                            <button class="onboarding__btn py-3 active:outline-none inline-flex">
+                                <span class="text-white text-sm font-bold mx-4">Sign Up</span>
+
+                                <svg class="arrow " width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.0545 8H13.5933" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8.8239 3.33337L13.5933 8.00004L8.8239 12.6667" stroke="white"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
 
 
+                            </button>
                         </div>
 
                     </form>
+                    <div class="flex flex-wrap mt-6 mb-10">
+                        <p class="question"> Already have an account? <a href="signin.html"> Log in here</a></p>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!-- Background here -->
-        <div class="w-1/2 pol-bg "></div>
+        <div class="lg:w-1/2 pol-bg "></div>
     </div>
 
 </body>

@@ -18,7 +18,7 @@
     background-image: url('../Assets/General/pol-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: auto;
 }
 
 label {
@@ -47,4 +47,41 @@ input {
     font-family: var(--main-font) !important;
     font-weight: normal;
     font-size: 14px !important;
+}
+
+span {
+    font-family: var(--main-font);
+    color: #001218;
+}
+
+a {
+    color: var(--main-color) !important;
+}
+
+.onboarding__btn {
+    background: var(--main-color);
+    box-shadow: 0px 8px 8px -4px rgba(0, 141, 192, 0.125), 0px 0px 4px rgba(0, 141, 192, 0.25);
+    border-radius: 16px;
+}
+
+.onboarding__btn span {
+    font-family: var(--main-font);
+}
+
+.question {
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.arrow {
+    margin-left: 14rem;
+    margin-right: 2rem;
+}
+
+@media screen and (max-width: 576px) and (min-width: 275px) {
+    .mob__center {
+        justify-content: center;
+    }
 }
