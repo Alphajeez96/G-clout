@@ -71,8 +71,6 @@ a {
 .question {
     color: var(--main-color);
     font-family: var(--main-font);
-    font-weight: normal;
-    font-size: 14px;
 }
 
 .arrow {

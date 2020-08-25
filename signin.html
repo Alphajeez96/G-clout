@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./Css/signup.css" rel="stylesheet">
+    <!-- Tailwind here -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Signup -</title>
+</head>
+
+<body>
+
+    <div class="flex mob__center">
+        <!-- signup area -->
+        <div class="lg:w-1/2 md:w-full sm:w-full lg:px-40 md:pl-40 sm:pl-20  pt-12">
+            <!-- logo here -->
+            <div>
+                <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="32" cy="32" r="28.8" fill="#006EF0" />
+                    <path
+                        d="M28.3422 27.2566C31.9363 26.6708 33.9748 29.79 34.3464 29.7702C34.718 29.7504 35.5224 29.0393 36.3584 27.8718C37.1945 26.7043 37.6535 26.1489 37.6535 25.575C37.6535 25.0011 36.4087 23.6753 35.4038 22.9754C34.3988 22.2755 34.235 21.7949 32.3678 21.3586C30.5007 20.9223 29.6273 20.5868 27.0262 20.9627C24.4251 21.3386 23.3503 22.2995 22.5009 22.9754C21.6515 23.6513 18.3733 26.9744 17.947 30.2509L17.9375 30.3235C17.5137 33.5789 17.0623 37.0473 19.465 40.76C21.8855 44.5002 24.6141 45.4595 24.9576 45.5988C25.301 45.7382 28.5004 46.4604 30.0711 46.3961C33.4358 46.2582 34.1516 45.0093 35.4038 44.8019C36.6559 44.5944 39.7086 46.0831 39.9577 45.6103C40.2069 45.1374 39.2709 42.4092 39.3202 39.1388C39.3694 35.8684 39.8785 33.6998 39.4844 32.9477C39.0903 32.1957 33.54 31.9891 32.8164 32.7974C32.0927 33.6057 33.1268 38.9255 33.1268 38.9255C33.1268 38.9255 31.1649 39.7902 29.8513 39.7902C28.5377 39.7902 27.6804 39.8466 26.092 38.7939C24.5036 37.7412 23.7623 34.6396 24.0271 32.7974C24.2918 30.9552 24.7482 27.8424 28.3422 27.2566Z"
+                        fill="white" />
+                    <ellipse cx="46.4" cy="20.8" rx="3.2" ry="3.2" fill="white" />
+                </svg>
+            </div>
+
+            <!-- form here -->
+            <div>
+                <h3 class="header text-3xl font-clack mt-8">Sign Up.</h3>
+                <p class="mt-3 text-xs sub__text">Let’s set up a new account for you.</p>
+                <div>
+                    <form class="w-full max-w-lg" method="POST" action="">
+                        <div class="flex flex-wrap mt-6">
+                            <div class="w-full bg-gray-100">
+                                <label class="block  tracking-wide px-2 pt-1" for="email">
+                                    Email address
+                                </label>
+                                <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="email" type="email" required placeholder="renderblender@gmail.com">
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap mt-6">
+                            <div class="w-full bg-gray-100">
+                                <label class="block  tracking-wide px-2 pt-1 " for="password">
+                                    Password
+                                </label>
+                                <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="password" type="password" required placeholder="•••••••••••••••••••">
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap mt-6">
+                            <div class="w-full bg-gray-100">
+                                <label class="block  tracking-wide px-2 pt-1 " for="phone">
+                                    Phone number
+                                </label>
+                                <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="phone" pattern="^[0-9]*$" type="text" required placeholder="08023533829">
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap mt-6">
+                            <div class="w-full bg-gray-100">
+                                <label class="block  tracking-wide px-2 pt-1 " for="date">
+                                    Date of birth
+                                </label>
+                                <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="date" type="date" required>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-wrap mt-6">
+                            <label class="block  tracking-wide " for="date">
+                                <input class="leading-tight " type="checkbox" required>
+                                <span class="mx-1 text-xs font-medium">I agree to the GClout’s <a href="">Terms and
+                                        Conditions</a> </span>
+                            </label>
+                        </div>
+
+                        <div class="flex  flex-wrap mt-6">
+                            <button class="onboarding__btn py-3 focus:outline-none inline-flex">
+                                <span class="text-white text-sm font-bold mx-4">Sign Up</span>
+
+                                <svg class="arrow " width="17" height="16" viewBox="0 0 17 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4.0545 8H13.5933" stroke="white" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M8.8239 3.33337L13.5933 8.00004L8.8239 12.6667" stroke="white"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+
+                    </form>
+                    <div class="flex flex-wrap mt-6 mb-10">
+                        <p class="question text-sm font-normal"> Already have an account? <a href="signin.html"> Log in
+                                here</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background here -->
+        <div class="lg:w-1/2 pol-bg "></div>
+    </div>
+
+</body>
+
+</html>
