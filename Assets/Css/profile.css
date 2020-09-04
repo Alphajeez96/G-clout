@@ -20,6 +20,11 @@ header {
     font-size: 14px
 }
 
+
+/* ---------------------------------
+    *****PROFILE AREA***** 
+------------------------------------*/
+
 .profile_holder {
     border: 0.5px solid #D9DBDC;
     border-right: none;
@@ -35,6 +40,17 @@ header {
 .profile_name span {
     color: #667174;
     font-weight: 500;
+}
+
+.nav_item {
+    padding-top: 13px;
+    font-weight: 900;
+    font-size: 14px;
+    color: #1A2A2F;
+}
+
+.border_right {
+    border: 1px solid #F2F3F3;
 }
 
 
