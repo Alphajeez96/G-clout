@@ -42,16 +42,30 @@ header {
     font-weight: 500;
 }
 
-.nav_item {
-    padding-top: 13px;
+.nav_link {
+    padding-top: 14px;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 18px;
     color: #1A2A2F;
+    margin: 0px 7px;
 }
 
 .border_right {
     border: 1px solid #F2F3F3;
 }
+
+.back_btn {
+    letter-spacing: 0.02em;
+    font-weight: 900;
+    font-size: 18px;
+    color: #001218;
+}
+
+
+/* .nav_item:active,
+.nav_item:focus {
+    color: #c33;
+} */
 
 
 /* ul li {
