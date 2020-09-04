@@ -61,6 +61,11 @@ header {
     color: #001218;
 }
 
+.profile__background {
+    background: url('../img/General/profile_bg.png');
+    height: auto;
+}
+
 
 /* .nav_item:active,
 .nav_item:focus {
