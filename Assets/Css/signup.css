@@ -17,7 +17,7 @@ body {
 }
 
 .pol-bg {
-    background-image: url('../Assets/General/pol-bg.png');
+    background-image: url('../img/General/pol-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
