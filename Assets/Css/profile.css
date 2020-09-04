@@ -66,6 +66,15 @@ header {
     height: auto;
 }
 
+.profile_img_div {
+    bottom: 50px;
+}
+
+.img_edit_btn {
+    bottom: 0;
+    left: 65px;
+}
+
 
 /* .nav_item:active,
 .nav_item:focus {
