@@ -180,3 +180,46 @@ header {
     font-weight: 500;
     line-height: 22px;
 }
+
+
+/* ---------------------------------
+    *****MESSAGING AREA STYLES***** 
+------------------------------------*/
+
+.timeline_indicator {
+    color: #667174;
+    font-weight: 500;
+    padding-top: 6px;
+}
+
+.shared_post_content {
+    color: #001218;
+    font-weight: 400;
+}
+
+.shareable_post {
+    background: rgba(230, 231, 232, 0.2);
+    border: 1px solid #E6E7E8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.shared_timeline {
+    padding-top: 9px;
+}
+
+.comment_section {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #667174;
+}
+
+.sector_pill {
+    background: #F0F1F1;
+    /* border-radius: 12px; */
+    color: #667174;
+    font-weight: 500;
+    font-size: 12px;
+}
