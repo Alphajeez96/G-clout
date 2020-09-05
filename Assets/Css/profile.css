@@ -67,15 +67,17 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 200px;
 }
 
 .profile_img_div {
-    bottom: 50px;
+    bottom: 99px;
+    height: 0px;
 }
 
 .img_edit_btn {
-    bottom: 110px;
-    top: 0px;
+    bottom: 0px;
+    top: 65px;
     left: 65px;
 }
 
@@ -99,7 +101,7 @@ header {
 }
 
 .count {
-    color: #667174;
+    color: #102126;
     font-weight: 900;
 }
 
@@ -218,7 +220,6 @@ header {
 
 .sector_pill {
     background: #F0F1F1;
-    /* border-radius: 12px; */
     color: #667174;
     font-weight: 500;
     font-size: 12px;
