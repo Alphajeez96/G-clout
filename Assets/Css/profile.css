@@ -70,6 +70,13 @@ header {
     height: 200px;
 }
 
+iframe {
+    background: #C0C4C6;
+    border-radius: 4px;
+    height: 205px;
+    width: 100%;
+}
+
 .profile_img_div {
     bottom: 99px;
     height: 0px;
@@ -116,6 +123,17 @@ header {
     letter-spacing: 0.02em;
     color: #006EF0;
     font-weight: bold;
+}
+
+.view_info_btn {
+    padding: 12px 5px;
+    letter-spacing: 0.02em;
+    color: #006EF0;
+    font-weight: 600;
+}
+
+.message_btn {
+    margin-top: 2px;
 }
 
 .posts_title {
