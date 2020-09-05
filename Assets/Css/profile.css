@@ -104,7 +104,7 @@ iframe {
 .profile__description {
     color: #001218;
     line-height: 20px;
-    line-height: 20px;
+    /* font-weight: normal; */
 }
 
 .count {
@@ -114,6 +114,7 @@ iframe {
 
 .followed {
     color: #667174;
+    font-weight: 500;
 }
 
 .edit_profile_btn {
@@ -241,4 +242,20 @@ iframe {
     color: #667174;
     font-weight: 500;
     font-size: 12px;
+}
+
+
+/* ---------------------------------
+    *****PROFILE BIO STYLES***** 
+------------------------------------*/
+
+.contact_details>label {
+    color: #667174;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.contact_details>P {
+    line-height: 26px;
+    color: #001218;
 }
