@@ -141,6 +141,10 @@ header {
     border-top: 1px solid #F2F3F3;
 }
 
+.border_bottom {
+    border-bottom: 1px solid #F2F3F3;
+}
+
 .add_btn {
     letter-spacing: 0.02em;
     font-weight: bold;
