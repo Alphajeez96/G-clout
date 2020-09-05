@@ -11,6 +11,7 @@ body {
 header {
     background: #FFFFFF;
     box-shadow: 0px 4px 12px -4px rgba(26, 42, 47, 0.25);
+    height: 72px;
 }
 
 ::placeholder {
@@ -43,7 +44,7 @@ header {
 }
 
 .nav_link {
-    padding-top: 14px;
+    padding-top: 11px;
     font-weight: 900;
     font-size: 18px;
     color: #1A2A2F;
@@ -65,6 +66,7 @@ header {
     background: url('../img/General/profile_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-position: center; */
 }
 
 .profile_img_div {
@@ -123,6 +125,11 @@ header {
     font-weight: bold;
 }
 
+
+/* ---------------------------------
+    *****FRIEND SUGGESTIONS AREA***** 
+------------------------------------*/
+
 .friend_suggestion {
     letter-spacing: 0.02em;
     font-weight: 900;
@@ -143,8 +150,12 @@ header {
 }
 
 .add_background {
-    background: #E6E7E8;
+    background: url('../img/Vectors/Ads.png');
     border-radius: 4px 4px 0px 0px;
+    height: 185px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .ad_company_detail {
@@ -157,4 +168,10 @@ header {
     color: #667174;
     font-weight: bold;
     line-height: 20px;
+}
+
+.gclout_ad {
+    color: #667174;
+    font-weight: 500;
+    line-height: 22px;
 }
