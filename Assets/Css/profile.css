@@ -113,26 +113,18 @@ header {
     color: #006EF0;
 }
 
+.posts_title {
+    font-weight: 900;
+    color: #001218;
+}
 
-/* .nav_item:active,
-.nav_item:focus {
-    color: #c33;
-} */
+.filter_posts {
+    color: #006EF0;
+    font-weight: 300;
+}
 
-
-/* ul li {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-} */
-
-
-/* .nav_link {
-    text-decoration: none;
-} */
-
-
-/* .profile_holder_div {
-    border-right: 1px solid #667174;
-    opacity: 0.25;
-} */
+.friend_suggestion {
+    letter-spacing: 0.02em;
+    font-weight: 900;
+    color: #001218;
+}
