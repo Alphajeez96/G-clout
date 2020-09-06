@@ -126,6 +126,12 @@ iframe {
     font-weight: bold;
 }
 
+.edit_profile_btn:hover {
+    color: #fff;
+    border-color: #fff;
+    background: #006EF0;
+}
+
 .view_info_btn {
     padding: 12px 5px;
     letter-spacing: 0.02em;
@@ -291,3 +297,8 @@ iframe {
     line-height: 26px;
     color: #001218;
 }
+
+
+/* ---------------------------------
+    *****EDIT PROFILE FORM AREA HERE***** 
+------------------------------------*/

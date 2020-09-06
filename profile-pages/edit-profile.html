@@ -167,10 +167,10 @@
             <!-- Line divider here -->
             <div class="border_right"></div>
 
-            <!-- Profile Area here -->
-            <div class="w-5/12 ">
+            <!-- Edit Profile Area here -->
+            <div class="w-6/12 ">
                 <!-- profile back button here -->
-                <div class="flex">
+                <div class="flex border_bottom pb-3">
                     <div class="mr-auto pt-4 px-3">
                         <a href="user-own-profile.html">
                             <button class=" focus:outline-none px-4 back_btn rounded inline-flex items-center">
@@ -180,96 +180,27 @@
                                     <path d="M12 19L5 12L12 5" stroke="#1A2A2F" stroke-width="2"
                                         stroke-linejoin="bevel" />
                                 </svg>
-
                                 <span class="mx-4">Edit Profile</span>
                             </button>
                         </a>
                     </div>
-                    <div class=" pt-4 px-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z"
-                                fill="#001218" stroke="#001218" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13Z"
-                                fill="#001218" stroke="#001218" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13Z"
-                                fill="#001218" stroke="#001218" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
                 </div>
-
-                <!-- Background image here -->
-                <div class="profile__background flex mt-3 items-end bg-gray-200 h-48">
-                    <div class="flex-1 "></div>
-                    <!-- Edit background profile image here -->
-                    <div class="flex-initial  text-center px-4  m-2">
-                        <button class="focus:outline-none"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="18" cy="18" r="17" fill="#006EF0" stroke="white" stroke-width="2" />
-                                <path
-                                    d="M21.332 12.0003C21.5071 11.8252 21.715 11.6863 21.9438 11.5915C22.1725 11.4968 22.4177 11.448 22.6654 11.448C22.913 11.448 23.1582 11.4968 23.387 11.5915C23.6157 11.6863 23.8236 11.8252 23.9987 12.0003C24.1738 12.1754 24.3127 12.3832 24.4075 12.612C24.5022 12.8408 24.551 13.086 24.551 13.3336C24.551 13.5812 24.5022 13.8264 24.4075 14.0552C24.3127 14.284 24.1738 14.4919 23.9987 14.6669L14.9987 23.6669L11.332 24.6669L12.332 21.0003L21.332 12.0003Z"
-                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
+                <!-- profile forms here -->
+                <section>
+                    <!-- form links here -->
+                    <div class="mt-2">
+                        <ul class="flex">
+                            <li class="flex-1 mr-2">
+                                <a class="text-center block border border-blue-500 rounded py-2 px-4 uppercase bg-blue-500 hover:bg-blue-700 text-white text-base" href="#">Edit info</a>
+                            </li>
+                            <li class="flex-1 mr-2">
+                                <a class="text-center block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-2 px-4 uppercase text-base" href="#">password</a>
+                            </li>
+                            <li class="flex-1 mr-2">
+                                <a class="text-center block border border-white rounded hover:border-gray-200 text-blue-500 hover:bg-gray-200 py-2 px-4 uppercase text-base" href="#">account</a>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-
-                <!-- Profile Image here -->
-                <section class="flex mx-4 ">
-                    <div>
-                        <div class="relative profile_img_div ">
-                            <img src="../Assets/img/Vectors/profile_photo.png " alt="Profile Picture ">
-                            <button class="absolute img_edit_btn focus:outline-none "><svg width="36 " height="36 "
-                                    viewBox="0 0 36 36 " fill="none " xmlns="http://www.w3.org/2000/svg ">
-                                    <circle cx="18 " cy="18 " r="17 " fill="#006EF0 " stroke="white "
-                                        stroke-width="2 " />
-                                    <path d="M21.332 12.0003C21.5071 11.8252 21.715 11.6863 21.9438 11.5915C22.1725 11.4968 22.4177 11.448 22.6654 11.448C22.913 11.448 23.1582 11.4968 23.387 11.5915C23.6157 11.6863 23.8236 11.8252 23.9987 12.0003C24.1738
-                        12.1754 24.3127 12.3832 24.4075 12.612C24.5022 12.8408 24.551 13.086 24.551 13.3336C24.551 13.5812 24.5022 13.8264 24.4075 14.0552C24.3127 14.284 24.1738 14.4919 23.9987 14.6669L14.9987 23.6669L11.332 24.6669L12.332 21.0003L21.332
-                        12.0003Z " stroke="white " stroke-width="1.5 " stroke-linecap="round "
-                                        stroke-linejoin="round " />
-                                </svg>
-                            </button>
-
-                            <!-- Profile Details area here -->
-                            <div class="mx-2 mt-4 ">
-                                <p class="profile__name text-lg ">Jonathan Doe</p>
-                                <p class="profile__location pt-2 text-sm ">Lagos, Nigeria</p>
-                                <p class="profile__descriptions pt-3 text-sm  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra justo faucibus, blandit diam nec, ultrices neque. Nulla malesuada, massa...</p>
-                            </div>
-
-                            <div class=" mx-2 mt-3 ">
-                                <span class=" flex "> <span class="count text-sm ">200 </span> <span class="px-1 text-sm followed ">Friends</span>
-                                <span class="pt-2 px-2 ">
-                                        <svg width="2 " height="2 " viewBox="0 0 2 2 " fill="none "
-                                            xmlns="http://www.w3.org/2000/svg ">
-                                            <circle cx="1 " cy="1 " r="1 " fill="#667174 " />
-                                        </svg>
-                                    </span>
-                                <span class="count text-sm ">521 </span> <span class="px-1 text-sm followed ">Leaders</span>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="w-2/3 mt-3">
-                        <a href="edit-profile.html">
-                            <button class=" text-sm flex-auto edit_profile_btn focus:outline-none">Edit Profile</button>
-                        </a>
-
-                    </div>
-                </section>
-
-                <section class="flex mx-4">
-
-                    <div class="mr-auto">
-                        <p class="posts_title text-lg">Posts</p>
-                    </div>
-
-                    <div>
-                        <button class="filter_posts border-none focus:outline-none text-sm">Filter Posts</button>
-                    </div>
-
                 </section>
 
             </div>
@@ -278,7 +209,7 @@
             <div class="border_right "></div>
 
             <!-- friend suggestion Area -->
-            <div class="w-1/3 pt-4 px-6 ">
+            <div class="w-1/4 pt-4 ml-8 ">
                 <p class="text-lg friend_suggestion">People you may know </p>
                 <!-- Suggested friends here -->
                 <div class="suggested_wrapper border_top mt-3">
