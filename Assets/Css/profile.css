@@ -302,3 +302,62 @@ iframe {
 /* ---------------------------------
     *****EDIT PROFILE FORM AREA HERE***** 
 ------------------------------------*/
+
+.edit_link {
+    color: #667174;
+    font-weight: 500;
+    line-height: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.edit_link:hover {
+    color: #006EF0;
+    font-weight: bold;
+}
+
+.edit_link.active {
+    border-bottom: 4px solid #006EF0;
+    color: #006EF0;
+    font-weight: bold;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+.visitor_see {
+    line-height: 26px;
+    color: #001218;
+}
+
+.contact_display {
+    line-height: 20px;
+    font-weight: bold;
+    color: #667174;
+}
+
+.contact_label {
+    line-height: 20px;
+    color: #001218;
+}
+
+.toggle_input {
+    margin-top: 3px
+}
+
+select {
+    color: #1A2A2F;
+    opacity: 0.75;
+    font-size: 14px;
+}
+
+.save_info_btn {
+    background: #006EF0;
+    box-shadow: 0px 8px 8px -4px rgba(0, 141, 192, 0.125), 0px 0px 4px rgba(0, 141, 192, 0.25);
+    border-radius: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 16px;
+}
