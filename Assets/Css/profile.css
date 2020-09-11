@@ -350,7 +350,7 @@ iframe {
 select {
     color: #1A2A2F;
     opacity: 0.75;
-    font-size: 14px;
+    font-size: 14px !important;
 }
 
 .save_info_btn {
@@ -359,5 +359,26 @@ select {
     border-radius: 16px;
     color: white;
     font-weight: bold;
-    padding: 10px 16px;
+    padding: 12px 18px;
+}
+
+.save_info_btn span {
+    color: white;
+    font-weight: bold;
+}
+
+.qualify_text {
+    line-height: 26px;
+    color: #001218;
+    opacity: 0.5;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.select_toggle {
+    top: 30px;
+    right: 0;
+    margin-right: 10px;
 }
