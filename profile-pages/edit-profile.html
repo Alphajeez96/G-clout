@@ -368,7 +368,7 @@
                                 </div>
 
                                 <div class="mt-10 w-full">
-                                    <button type="button" class="save_info_btn flex  py-4 w-full focus:outline-none"><span
+                                    <button type="button" class="save_info_btn flex  py-4 w-full focus:outline-none" onclick="openUpgradeForm()"><span
                                             class="text-sm">Continue</span> <span class="ml-auto"><svg width="16"
                                                 height="16" viewBox="0 0 16 16" fill="none"
                                                 xmlns="http://www.w3.org/2000/svg">
@@ -380,68 +380,69 @@
                                         </span></button>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- Upgrade form here -->
-                            <div id="upgrade_form">
-                                <p class="mx-3 mt-8 mb-2 text-base contact_label">We’d need a few things to verify this request </p>
-                                <form class="w-full max-w-lg mx-3" method="POST" action="">
-                                    <div class="flex flex-wrap mt-6">
-                                        <div class="w-full bg-gray-100">
-                                            <label class="block  tracking-wide px-2 pt-1" for="work_email">
+                        <!-- Upgrade form here -->
+                        <div id="upgrade_form" class="tabcontent">
+                            <p class="mx-3 mt-8 mb-2 text-base contact_label">We’d need a few things to verify this request </p>
+                            <form class="w-full max-w-lg mx-3" method="POST" action="">
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="work_email">
                                                 Work E-mail Address
                                             </label>
-                                            <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="work_email" type="email" placeholder="Input your work email" required>
-                                        </div>
+                                        <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="work_email" type="email" placeholder="Input your work email" required>
                                     </div>
+                                </div>
 
-                                    <div class="flex flex-wrap mt-6">
-                                        <div class="w-full bg-gray-100">
-                                            <label class="block  tracking-wide px-2 pt-1" for="office">
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="office">
                                                 Office
                                             </label>
-                                            <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="ofice" type="text" placeholder="Input your office portfolio" required>
-                                        </div>
+                                        <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="ofice" type="text" placeholder="Input your office portfolio" required>
                                     </div>
+                                </div>
 
-                                    <div class="flex flex-wrap mt-6 relative">
-                                        <div class="w-full bg-gray-100">
-                                            <label class="block  tracking-wide px-2 pt-1" for="bio">
+                                <div class="flex flex-wrap mt-6 relative">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="bio">
                                                 Political Party
                                             </label>
-                                            <span class="absolute select_toggle"><svg width="10" height="6"
+                                        <span class="absolute select_toggle"><svg width="10" height="6"
                                                     viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path opacity="0.75" d="M1 1.00049L5 5.00049L9 1.00049"
                                                         stroke="#1A2A2F" stroke-width="2" stroke-linecap="round"
                                                         stroke-linejoin="round" />
                                                 </svg>
                                             </span>
-                                            <select name="" id="" class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" required>
+                                        <select name="" id="" class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" required>
                                                 <option value="PDP">PDP</option>
                                                 <option value="APC">APC</option>
                                             </select>
-                                        </div>
                                     </div>
+                                </div>
 
-                                    <div class="flex flex-wrap mt-6">
-                                        <div class="w-full bg-gray-100">
-                                            <label class="block  tracking-wide px-2 pt-1" for="pol_description">
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="pol_description">
                                                 Description
                                             </label>
-                                            <textarea class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="pol_description" placeholder="A brief description of what you do" required cols="30" rows="1"></textarea>
-                                        </div>
+                                        <textarea class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="pol_description" placeholder="A brief description of what you do" required cols="30" rows="1"></textarea>
                                     </div>
+                                </div>
 
-                                    <div class="flex flex-wrap mt-6">
-                                        <div class="w-full bg-gray-100">
-                                            <label class="block  tracking-wide px-2 pt-1" for="pol_added_info">
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="pol_added_info">
                                                 Additional Info
                                             </label>
-                                            <textarea class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="pol_added_info" placeholder="Any thing thing you think our team should know?" cols="30" rows="1"></textarea>
-                                        </div>
+                                        <textarea class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="pol_added_info" placeholder="Any thing thing you think our team should know?" cols="30" rows="1"></textarea>
                                     </div>
+                                </div>
 
-                                    <div class="mt-10 w-full">
-                                        <button type="submit" class="save_info_btn flex  py-4 w-full focus:outline-none">
+                                <div class="mt-10 w-full">
+                                    <button type="submit" class="save_info_btn flex  py-4 w-full focus:outline-none">
                                             <span
                                                 class="text-sm">Send Request</span> <span class="ml-auto"><svg
                                                     width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -454,10 +455,10 @@
                                                 </svg>
                                             </span>
                                         </button>
-                                    </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
+
                     </div>
                 </section>
             </div>
