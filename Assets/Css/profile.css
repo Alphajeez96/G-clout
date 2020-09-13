@@ -304,7 +304,7 @@ iframe {
 ------------------------------------*/
 
 .edit_link {
-    color: #667174 !important;
+    color: #667174;
     font-weight: 500;
     line-height: 20px;
     transition: 0.3s;
@@ -312,12 +312,12 @@ iframe {
 }
 
 .edit_link:hover {
-    color: #006EF0 !important;
+    color: #006EF0;
 }
 
 .edit_link.active {
     border-bottom: 4px solid #006EF0;
-    color: #006EF0 !important;
+    color: #006EF0;
     font-weight: bold;
 }
 
@@ -385,4 +385,27 @@ textarea {
 .scrollable {
     overflow-y: auto;
     height: 500px;
+}
+
+label {
+    letter-spacing: 0.05em;
+    color: #1A2A2F;
+    opacity: 0.75;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.border-b-3 {
+    border-bottom-width: 2px;
+}
+
+input {
+    color: #1A2A2F !important;
+    font-family: var(--main-font) !important;
+    font-weight: normal;
+    font-size: 14px !important;
+}
+
+.bg-gray-100 {
+    background: #FCFCFC !important;
 }
