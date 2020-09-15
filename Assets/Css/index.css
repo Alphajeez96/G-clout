@@ -83,7 +83,6 @@
     
     .petition_header {
         border-radius: 8px 8px 0px 0px;
-        height: 10vh;
         background: #338BF3;
     }
     
@@ -91,4 +90,24 @@
         border: 1px solid #E6E7E8;
         box-sizing: border-box;
         border-radius: 0px 0px 8px 8px;
+    }
+    
+    .dark {
+        color: #001218;
+    }
+    
+    .read_more {
+        color: #006EF0;
+    }
+    
+    .signed_user1 {
+        left: -5px
+    }
+    
+    .signed_user2 {
+        left: 15px
+    }
+    
+    .signed_user3 {
+        left: 3px
     }
