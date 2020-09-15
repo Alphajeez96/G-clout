@@ -96,6 +96,11 @@
         color: #001218;
     }
     
+    .light_gray {
+        color: #1A2A2F;
+        opacity: 0.75;
+    }
+    
     .read_more {
         color: #006EF0;
     }
@@ -110,4 +115,26 @@
     
     .signed_user3 {
         left: 3px
+    }
+    
+    .notification_arena {
+        height: 500px;
+        overflow-y: auto;
+    }
+    
+    .notification_arena::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background: rgb(143, 142, 142);
+        border-radius: 10px;
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: rgb(143, 142, 142);
     }
