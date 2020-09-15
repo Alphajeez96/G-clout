@@ -1,41 +1,94 @@
-/* ---------------------------------
+    /* ---------------------------------
     *****BLOB AREA***** 
 ------------------------------------*/
-
-.post_holder {
-    border: 1px solid #E6E7E8;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
-
-.character_count {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-    color: #667174;
-}
-
-.blob_buttons {
-    background: rgba(51, 139, 243, 0.05);
-    border-radius: 16px;
-    padding: 6px 15px;
-    color: #006EF0;
-    font-weight: 500;
-    align-self: center;
-}
-
-.post_button {
-    color: rgba(255, 255, 255, 0.5);
-    letter-spacing: 0.02em;
-    border-radius: 16px;
-    padding: 8px 16px;
-    align-self: center;
-    font-weight: 500;
-    background: #C9CDCE;
-}
-
-.trending_holder {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 12px -4px rgba(26, 42, 47, 0.25);
-    border-radius: 4px;
-}
+    
+    .post_holder {
+        border: 1px solid #E6E7E8;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    
+    .character_count {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        color: #667174;
+    }
+    
+    .blob_buttons {
+        background: rgba(51, 139, 243, 0.05);
+        border-radius: 16px;
+        padding: 6px 15px;
+        color: #006EF0;
+        font-weight: 500;
+        align-self: center;
+    }
+    
+    .post_button {
+        color: rgba(255, 255, 255, 0.5);
+        letter-spacing: 0.02em;
+        border-radius: 16px;
+        padding: 8px 16px;
+        align-self: center;
+        font-weight: 500;
+        background: #C9CDCE;
+    }
+    
+    .trending_holder {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 12px -4px rgba(26, 42, 47, 0.25);
+        border-radius: 4px;
+    }
+    /* ---------------------------------
+    *****PAGINATION BUTTON AREA***** 
+------------------------------------*/
+    
+    .next_btn {
+        background: rgba(230, 231, 232, 0.25);
+        border: 1px solid #E6E7E8;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 2px 3px;
+    }
+    
+    .pagination_btn {
+        background: rgba(230, 231, 232, 0.25);
+        border: 1px solid #E6E7E8;
+        box-sizing: border-box;
+        border-radius: 4px;
+        color: #667174;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        width: 32px;
+        height: 32px;
+    }
+    
+    .pagination_btn.active {
+        border: 1px solid #006EF0;
+    }
+    
+    .timeline_indicator {
+        color: #667174;
+        font-weight: 500;
+        padding-top: 6px;
+    }
+    
+    .dot_indicator {
+        padding-top: 13px;
+    }
+    /* ---------------------------------
+    *****PETITION AREA***** 
+------------------------------------*/
+    
+    .petition_header {
+        border-radius: 8px 8px 0px 0px;
+        height: 10vh;
+        background: #338BF3;
+    }
+    
+    .petition_content {
+        border: 1px solid #E6E7E8;
+        box-sizing: border-box;
+        border-radius: 0px 0px 8px 8px;
+    }

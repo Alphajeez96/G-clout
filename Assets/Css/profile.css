@@ -251,6 +251,10 @@ iframe {
     padding-top: 6px;
 }
 
+.dot_indicator {
+    padding-top: 13px;
+}
+
 .shared_post_content {
     color: #001218;
     font-weight: 400;
