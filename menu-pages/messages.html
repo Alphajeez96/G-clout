@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Assets/Css/profile.css" rel="stylesheet">
+    <link href="../Assets/Css/index.css" rel="stylesheet">
+    <!-- Tailwind here -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Messages -</title>
+</head>
+
+<body>
+    <!-- Nav bar here -->
+    <header>
+        <nav class="flex items-center justify-between flex-wrap bg-white-500 p-2 lg:px-24">
+            <div class="flex items-center flex-shrink-0 text-black mr-6">
+
+                <a href=""><span class="font-semibold logo text-xl tracking-tight"><svg width="40" height="40"
+                            viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20.0001" r="18" fill="#006EF0" />
+                            <path
+                                d="M17.7139 17.0353C19.9602 16.6692 21.2343 18.6186 21.4665 18.6062C21.6988 18.5939 22.2015 18.1495 22.724 17.4198C23.2466 16.6901 23.5335 16.3429 23.5335 15.9843C23.5335 15.6256 22.7555 14.797 22.1274 14.3595C21.4993 13.9221 21.3969 13.6217 20.2299 13.349C19.0629 13.0763 18.5171 12.8667 16.8914 13.1016C15.2657 13.3365 14.594 13.9371 14.0631 14.3595C13.5322 14.782 11.4833 16.8589 11.2169 18.9067L11.211 18.9521C10.9461 20.9867 10.6639 23.1544 12.1656 25.4749C13.6785 27.8125 15.3838 28.4121 15.5985 28.4992C15.8131 28.5863 17.8128 29.0376 18.7944 28.9974C20.8974 28.9113 21.3448 28.1307 22.1274 28.0011C22.91 27.8714 24.8179 28.8018 24.9736 28.5063C25.1293 28.2108 24.5443 26.5056 24.5751 24.4616C24.6059 22.4176 24.9241 21.0622 24.6777 20.5922C24.4314 20.1222 20.9625 19.9931 20.5102 20.4983C20.058 21.0035 20.7043 24.3283 20.7043 24.3283C20.7043 24.3283 19.4781 24.8688 18.6571 24.8688C17.8361 24.8688 17.3003 24.904 16.3075 24.2461C15.3148 23.5882 14.8515 21.6496 15.0169 20.4983C15.1824 19.3469 15.4676 17.4014 17.7139 17.0353Z"
+                                fill="white" />
+                            <ellipse cx="29" cy="13" rx="2" ry="2" fill="white" />
+                        </svg>
+                    </span></a>
+            </div>
+            <div>
+                <p class="posts_title pt-2 text-lg">Your Messages</p>
+            </div>
+            <!-- Search region here -->
+            <div>
+                <div class="pt-2 relative mx-auto text-gray-600">
+                    <input class="border-none  bg-white  border-gray-600  h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none" type="search" name="search" placeholder="Search GClout">
+                    <button type="submit" class="absolute right-0 top-0 mt-4  focus:outline-none active:outline-none">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                stroke="#001218" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M21.0004 21L16.6504 16.65" stroke="#001218" stroke-width="2"
+                                stroke-linejoin="bevel" />
+                        </svg>
+
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Platform Area here -->
+    <main>
+        <div class="flex mb-4 lg:px-24 ">
+            <!-- Side bar here -->
+            <div class="w-1/4 pt-6 ">
+                <!-- profile region here -->
+                <div class="profile_holder flex px-4 py-3">
+                    <img src="../Assets/img/Vectors/profile-img.png" alt="Profile Image">
+                    <div class="profile_name mx-3">
+                        <p class="pt-1 text-sm">John Doe</p>
+                        <span class="text-xs flex flex-row "> 200 Friends
+
+                            <span class="pt-2 px-1"><svg width="2" height="2" viewBox="0 0 2 2" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="1" cy="1" r="1" fill="#667174" />
+                                </svg>
+
+                            </span> 50 Leaders
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Navigation Bar here -->
+                <div class="mt-6 mx-3">
+                    <ul>
+                        <li class="pb-3">
+                            <a href="user-own-profile.html" class=" flex ">
+                                <span>
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.75">
+                                            <path
+                                                d="M15 21L24 14L33 21V32C33 32.5304 32.7893 33.0391 32.4142 33.4142C32.0391 33.7893 31.5304 34 31 34H17C16.4696 34 15.9609 33.7893 15.5858 33.4142C15.2107 33.0391 15 32.5304 15 32V21Z"
+                                                stroke="#1A2A2F" stroke-width="2" stroke-linecap="square"
+                                                stroke-linejoin="bevel" />
+                                            <path
+                                                d="M21 26V25L20 26L21 26ZM27 26H28L27 25V26ZM22 35V26L20 26V35H22ZM21 27H27V25H21V27ZM26 26V35H28V26H26Z"
+                                                fill="#1A2A2F" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="nav_link ">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="pb-3">
+                            <a href="lists.html" class=" flex ">
+                                <span>
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.75">
+                                            <path d="M20 18H33" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                            <path d="M20 24H33" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                            <path d="M20 30H33" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                            <path d="M15 18H15.01" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                            <path d="M15 24H15.01" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                            <path d="M15 30H15.01" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="nav_link">Lists</span>
+                            </a>
+                        </li>
+
+                        <li class="pb-3">
+                            <a href="notifications.html" class=" flex ">
+                                <span>
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.75">
+                                            <path
+                                                d="M30 20C30 18.4087 29.3679 16.8826 28.2426 15.7574C27.1174 14.6321 25.5913 14 24 14C22.4087 14 20.8826 14.6321 19.7574 15.7574C18.6321 16.8826 18 18.4087 18 20C18 27 15 29 15 29H33C33 29 30 27 30 20Z"
+                                                stroke="#1A2A2F" stroke-width="2" stroke-linecap="square"
+                                                stroke-linejoin="bevel" />
+                                            <path
+                                                d="M25.7295 33C25.5537 33.3031 25.3014 33.5547 24.9978 33.7295C24.6941 33.9044 24.3499 33.9965 23.9995 33.9965C23.6492 33.9965 23.3049 33.9044 23.0013 33.7295C22.6977 33.5547 22.4453 33.3031 22.2695 33"
+                                                stroke="#1A2A2F" stroke-width="2" stroke-linecap="square"
+                                                stroke-linejoin="bevel" />
+                                        </g>
+                                    </svg>
+
+                                </span>
+                                <span class="nav_link">Notifications</span>
+                            </a>
+                        </li>
+
+                        <li class="pb-3">
+                            <a href="messages.html" class=" flex ">
+                                <span>
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.75">
+                                            <path
+                                                d="M16 16H32C33.1 16 34 16.9 34 18V30C34 31.1 33.1 32 32 32H16C14.9 32 14 31.1 14 30V18C14 16.9 14.9 16 16 16Z"
+                                                stroke="#1A2A2F" stroke-width="2" stroke-linecap="square"
+                                                stroke-linejoin="bevel" />
+                                            <path d="M33 19L24 25L15 19" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                        </g>
+                                    </svg>
+
+                                </span>
+                                <span class="nav_link">Messages</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Line divider here -->
+            <div class="border_right"></div>
+
+            <!-- Messages  Area here -->
+            <div class="w-2/5 message_arena ">
+                <div class="border_bottom pb-4">
+                    <div class="mt-2 mx-5">
+                        <!-- search region here -->
+                        <form class="w-full max-w-sm">
+                            <div class="flex items-center border_bottom py-2">
+                                <input class="appearance-none bg-transparent border-none w-full text-sm  py-1 font-normal leading-relaxed focus:outline-none " type="search" placeholder="Seach for people">
+
+                                <button class="focus:outline-none" type="button">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                            stroke="#1A2A2F" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M21.0004 21.0004L16.6504 16.6504" stroke="#1A2A2F" stroke-width="2"
+                                            stroke-linejoin="bevel" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Messages here -->
+
+                <div class="  message_holder cursor-pointer mt-1 pb-3">
+                    <div class="suggested_wrapper mx-5 ">
+                        <div class="flex">
+                            <div class="">
+                                <div class=" flex pt-3">
+                                    <img src="../Assets/img/Vectors/Devon.png" alt="Profile Image">
+                                    <div class="profile_name mx-3">
+                                        <div class="flex">
+                                            <p class="pt-1 text-sm ">Devon Lane </p>
+
+                                        </div>
+                                        <span class="text-xs lighter_gray flex pt-1"> this a test message, lorem ipsum
+                                            dolor... </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- More Button here -->
+                            <div class="pt-4 ml-auto">
+                                <p class="lighter_gray text-xs font-medium leading-5">8 mins ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="  message_holder cursor-pointer mt-1 pb-3 active">
+                    <div class="suggested_wrapper  mx-5">
+                        <div class="flex">
+                            <div class="">
+                                <div class=" flex pt-3">
+                                    <img src="../Assets/img/Vectors/Johan.png" alt="Profile Image">
+                                    <div class="profile_name mx-3">
+                                        <div class="flex">
+                                            <p class="pt-1 text-sm">Johan Doe </p>
+
+                                        </div>
+                                        <span class="text-xs lighter_gray flex pt-1"> this a test message, lorem ipsum
+                                            dolor... </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- More Button here -->
+                            <div class="pt-4 ml-auto">
+                                <p class="lighter_gray text-xs font-medium leading-5">8 mins ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="  message_holder cursor-pointer mt-1 pb-3">
+                    <div class="suggested_wrapper mx-5">
+                        <div class="flex">
+                            <div class="">
+                                <div class=" flex pt-3">
+                                    <img src="../Assets/img/Vectors/friend.png" alt="Profile Image">
+                                    <div class="profile_name mx-3">
+                                        <div class="flex">
+                                            <p class="pt-1 text-sm">Johanne Doe </p>
+
+                                        </div>
+                                        <span class="text-xs lighter_gray flex pt-1"> this a test message, lorem ipsum
+                                            dolor... </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- More Button here -->
+                            <div class="pt-4 ml-auto">
+                                <p class="lighter_gray text-xs font-medium leading-5">8 mins ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- New message notificatin here -->
+                <div class="  message_holder cursor-pointer mt-1 pb-3 new">
+                    <div class="suggested_wrapper mx-5">
+                        <div class="flex">
+                            <div class="">
+                                <div class=" flex pt-3">
+                                    <img src="../Assets/img/Vectors/Devon.png" alt="Profile Image">
+                                    <div class=" mx-3">
+                                        <div class="flex">
+                                            <p class="pt-1 text-sm font-bold">Guy Hawkins </p>
+
+                                        </div>
+                                        <span class="text-xs lighter_gray flex pt-1"> this a test message, lorem ipsum
+                                            dolor... </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- More Button here -->
+                            <div class="pt-4 ml-auto">
+                                <p class=" text-xs font-medium leading-5">8 mins ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="  message_holder cursor-pointer mt-1 pb-3">
+                    <div class="suggested_wrapper mx-5">
+                        <div class="flex">
+                            <div class="">
+                                <div class=" flex pt-3">
+                                    <img src="../Assets/img/Vectors/friend.png" alt="Profile Image">
+                                    <div class="profile_name mx-3">
+                                        <div class="flex">
+                                            <p class="pt-1 text-sm">Johanne Doe </p>
+
+                                        </div>
+                                        <span class="text-xs lighter_gray flex pt-1"> this a test message, lorem ipsum
+                                            dolor... </span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- More Button here -->
+                            <div class="pt-4 ml-auto">
+                                <p class="lighter_gray text-xs font-medium leading-5">8 mins ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="  message_holder cursor-pointer mt-1 pb-3">
+                    <div class="suggested_wrapper mx-5">
+                        <div class="flex">
+                            <div class="">
+                                <div class=" flex pt-3">
+                                    <img src="../Assets/img/Vectors/friend.png" alt="Profile Image">
+                                    <div class="profile_name mx-3">
+                                        <div class="flex">
+                                            <p class="pt-1 text-sm">Johanne Doe </p>
+
+                                        </div>
+                                        <span class="text-xs lighter_gray flex pt-1"> this a test message, lorem ipsum
+                                            dolor... </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- More Button here -->
+                            <div class="pt-4 ml-auto">
+                                <p class="lighter_gray text-xs font-medium leading-5">8 mins ago</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Line divider here -->
+            <div class="border_right "></div>
+
+            <!-- chat  Area -->
+            <div class="w-5/12 ">
+                <!-- User details here -->
+                <div class="suggested_wrapper mx-5 mt-4">
+                    <div class="flex">
+                        <div class="">
+                            <div class=" flex ">
+                                <img src="../Assets/img/Vectors/Johan.png" class="w-10 h-10" alt="Profile Image">
+                                <div class="profile_name mx-3">
+                                    <div class="flex">
+                                        <p class=" text-sm">Johan Doe </p>
+                                    </div>
+                                    <span class="text-xs lighter_gray flex ">Minister of Sports and Culture</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- More Button here -->
+                        <div class=" ml-auto ">
+                            <div class="dropdown">
+                                <button onclick="showDropdown()" class="  py-2 px-5 dropbtn focus:outline-none text-sm  rounded inline-flex ">
+                                    <span class="">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z"
+                                                stroke="black" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13Z"
+                                                stroke="black" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13Z"
+                                                stroke="black" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </span>
+
+                                </button>
+
+                                <div class=" origin-top-right absolute left-0 mt-2  dropdown-content" id="myDropdown">
+                                    <div class="rounded-md bg-white shadow-xs">
+                                        <div class="py-2 px-3" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
+                                            <button class="flex py-3 text-xs dark_gray font-medium focus:outline-none role=" menuitem "> 
+                                                <svg width=" 16 " height=" 16 " viewBox=" 0 0 16 16 " fill=" none " xmlns=" http://www.w3.org/2000/svg ">
+                                                <g opacity=" 0.5 ">
+                                                <path d=" M2.66602 9.99967C2.66602 9.99967 3.33268 9.33301 5.33268 9.33301C7.33268 9.33301 8.66602 10.6663 10.666 10.6663C12.666 10.6663 13.3327 9.99967 13.3327 9.99967V1.99967C13.3327 1.99967 12.666 2.66634
+                                                10.666 2.66634C8.66602 2.66634 7.33268 1.33301 5.33268 1.33301C3.33268 1.33301 2.66602 1.99967 2.66602 1.99967V9.99967Z " stroke=" #1A2A2F " stroke-width=" 1.5 " stroke-linejoin=" bevel "/>
+                                                <path d=" M2.66602 14.6667V10 " stroke=" #1A2A2F " stroke-width=" 1.5 " stroke-linejoin=" bevel "/>
+                                                </g>
+                                                </svg>      
+                                                 <span class=" mx-2 ">Report Johan Doe</span>   
+                                            </button>
+    
+                                            <button class=" flex py-3 text-xs dark_gray font-medium focus:outline-none role=" menuitem ">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g opacity="0.5">
+                                                        <path
+                                                            d="M8.00065 14.6663C11.6825 14.6663 14.6673 11.6816 14.6673 7.99967C14.6673 4.31778 11.6825 1.33301 8.00065 1.33301C4.31875 1.33301 1.33398 4.31778 1.33398 7.99967C1.33398 11.6816 4.31875 14.6663 8.00065 14.6663Z"
+                                                            stroke="#1A2A2F" stroke-width="1.5"
+                                                            stroke-linejoin="bevel" />
+                                                        <path d="M3.28711 3.28711L12.7138 12.7138" stroke="#1A2A2F"
+                                                            stroke-width="1.5" stroke-linejoin="bevel" />
+                                                    </g>
+                                                </svg>
+                                            <span class="mx-2 ">Block Johan Doe</span>
+                                            </button>
+
+                                            <button class="flex py-3 text-xs dark_gray font-medium focus:outline-none role=" menuitem ">
+                                                <svg width=" 16 " height=" 16 " viewBox=" 0 0 16 16 " fill=" none " xmlns=" http://www.w3.org/2000/svg ">
+                                                    <g opacity=" 0.5 " clip-path=" url(#clip0) ">
+                                                    <path d=" M10.666 14V12.6667C10.666 11.9594 10.3851 11.2811 9.88497 10.781C9.38487 10.281 8.70659 10 7.99935 10H3.33268C2.62544 10 1.94716 10.281 1.44706 10.781C0.946967 11.2811 0.666016 11.9594 0.666016
+                                                12.6667V14 " stroke=" #1A2A2F " stroke-width=" 1.5 " stroke-linejoin=" bevel "/>
+                                                    <path d=" M5.66667 7.33333C7.13943 7.33333 8.33333 6.13943 8.33333 4.66667C8.33333 3.19391 7.13943 2 5.66667 2C4.19391 2 3 3.19391 3 4.66667C3 6.13943 4.19391 7.33333 5.66667 7.33333Z " stroke=" #1A2A2F
+                                                " stroke-width=" 1.5 " stroke-linejoin=" bevel "/>
+                                                    <path d=" M12 5.33301L15.3333 8.66634 " stroke=" #1A2A2F " stroke-width=" 1.5 " stroke-linejoin=" bevel "/>
+                                                    <path d=" M15.3333 5.33301L12 8.66634 " stroke=" #1A2A2F " stroke-width=" 1.5 " stroke-linejoin=" bevel "/>
+                                                    </g>
+                                                    <defs>
+                                                    <clipPath id=" clip0 ">
+                                                    <rect width=" 16 " height=" 16 " fill=" white "/>
+                                                    </clipPath>
+                                                    </defs>
+                                                    </svg>
+                                                                                                 
+                                            <span class=" mx-2 "> Unfriend Johan Doe</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>           
+                    </div>
+                </div>
+                <div class="border_bottom mt-4 "></div>
+
+                <!-- chat display here -->
+                <section>
+                <div class="message_arena ">
+                    <!-- received end -->
+                    <div class="flex items-center received_message ">
+
+                    </div>
+                </div>
+            </section>
+
+            </div>
+            <div class=" border_right "></div>
+        </div>
+    </main>
+    <script src=" ../Assets/js/script.js "></script>
+</body>
+
+</html>

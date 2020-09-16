@@ -101,6 +101,14 @@
         opacity: 0.75;
     }
     
+    .dark_gray {
+        color: #1A2A2F;
+    }
+    
+    .lighter_gray {
+        color: #667174;
+    }
+    
     .read_more {
         color: #006EF0;
     }
@@ -127,7 +135,7 @@
     }
     
      ::-webkit-scrollbar-track {
-        background: #f1f1f1;
+        background: #C4C4C4;
     }
     
      ::-webkit-scrollbar-thumb {
@@ -137,4 +145,76 @@
     
      ::-webkit-scrollbar-thumb:hover {
         background: rgb(143, 142, 142);
+    }
+    /* ---------------------------------
+    *****MESSAGES STYLING  AREA***** 
+------------------------------------*/
+    
+    .message_arena {
+        height: 500px;
+        overflow-y: auto;
+    }
+    
+    .message_arena::-webkit-scrollbar {
+        width: 10px;
+    }
+    
+     ::-webkit-scrollbar-track {
+        background: #C4C4C4;
+    }
+    
+     ::-webkit-scrollbar-thumb {
+        background: rgb(143, 142, 142);
+        border-radius: 10px;
+    }
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: rgb(143, 142, 142);
+    }
+    
+    .message_holder.active {
+        border-top: 1px solid #F2F3F3;
+        border-bottom: 1px solid #F2F3F3;
+        background: #fbfbfb;
+        align-items: center;
+        border-right: 4px solid #006EF0;
+    }
+    
+    .message_holder:hover {
+        border-top: 1px solid #F2F3F3;
+        border-bottom: 1px solid #F2F3F3;
+        background: #fbfbfb;
+    }
+    
+    .message_holder.new {
+        border-top: 1px solid #F2F3F3;
+        border-bottom: 1px solid #F2F3F3;
+        background: #E5F1FD;
+        align-items: center;
+        color: #006EF0;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        width: 174px;
+        background: #FFFFFF;
+        border: 1px solid #E6E7E8;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 12px -4px rgba(26, 42, 47, 0.25);
+        border-radius: 4px;
+        z-index: 1;
+    }
+    
+    .show {
+        display: block;
+    }
+    
+    .received_message {
+        height: 2vh;
+        background: red;
     }
