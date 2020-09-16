@@ -228,3 +228,10 @@
         hyphens: auto;
         max-width: 239px;
     }
+    
+    .sent_message {
+        background: #006EF0;
+        border-radius: 16px 16px 0px 16px;
+        padding: 12px 16px;
+        width: fit-content;
+    }
