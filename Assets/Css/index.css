@@ -236,3 +236,26 @@
         width: fit-content;
         margin: 2px 0px;
     }
+    
+    .poll_holder {
+        background: #E6E7E8;
+        border-radius: 4px;
+        padding: 4px 0px;
+    }
+    
+    .poll_holder.active {
+        background: #006EF0;
+        border-radius: 4px;
+        padding: 4px 0px;
+    }
+    
+    .percentage_counter {
+        color: #1A2A2F;
+        font-weight: normal;
+        margin-top: 8px;
+    }
+    
+    .percentage_counter.active {
+        color: #006EF0;
+        font-weight: bold;
+    }
