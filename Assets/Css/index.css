@@ -215,6 +215,15 @@
     }
     
     .received_message {
-        height: 2vh;
-        background: red;
+        background: #E6E7E8;
+        border-radius: 0px 16px 16px 0px;
+        padding: 12px 16px;
+        width: fit-content;
+    }
+    
+    .message {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        hyphens: auto;
+        max-width: 239px;
     }
