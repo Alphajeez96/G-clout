@@ -52,7 +52,7 @@ header {
 }
 
 .border_right {
-    border: 1px solid #F2F3F3;
+    border: 0.5px solid #F2F3F3;
 }
 
 .back_btn {
@@ -67,15 +67,24 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 200px;
+}
+
+iframe {
+    background: #C0C4C6;
+    border-radius: 4px;
+    height: 205px;
+    width: 100%;
 }
 
 .profile_img_div {
-    bottom: 50px;
+    bottom: 99px;
+    height: 0px;
 }
 
 .img_edit_btn {
-    bottom: 110px;
-    top: 0px;
+    bottom: 0px;
+    top: 65px;
     left: 65px;
 }
 
@@ -95,16 +104,17 @@ header {
 .profile__description {
     color: #001218;
     line-height: 20px;
-    line-height: 20px;
+    /* font-weight: normal; */
 }
 
 .count {
-    color: #667174;
+    color: #102126;
     font-weight: 900;
 }
 
 .followed {
     color: #667174;
+    font-weight: 500;
 }
 
 .edit_profile_btn {
@@ -114,6 +124,49 @@ header {
     letter-spacing: 0.02em;
     color: #006EF0;
     font-weight: bold;
+}
+
+.edit_profile_btn:hover {
+    color: #fff;
+    border-color: #fff;
+    background: #006EF0;
+}
+
+.view_info_btn {
+    padding: 12px 5px;
+    letter-spacing: 0.02em;
+    color: #006EF0;
+    font-weight: 600;
+}
+
+.message_btn {
+    margin-top: 2px;
+}
+
+.following_btn {
+    background: #006EF0;
+    border-radius: 16px;
+    padding: 8px 16px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.follow_btn {
+    border: 1px solid #006EF0;
+    border-radius: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    color: #006EF0;
+    padding: 8px 16px;
+}
+
+.follow_btn:hover {
+    background: #006EF0;
+    color: white;
+    border-color: white;
 }
 
 .posts_title {
@@ -154,6 +207,12 @@ header {
     border-radius: 16px;
 }
 
+.add_btn:hover {
+    background: #006EF0;
+    color: white;
+    border-color: white;
+}
+
 .add_background {
     background: url('../img/Vectors/Ads.png');
     border-radius: 4px 4px 0px 0px;
@@ -192,6 +251,10 @@ header {
     padding-top: 6px;
 }
 
+.dot_indicator {
+    padding-top: 13px;
+}
+
 .shared_post_content {
     color: #001218;
     font-weight: 400;
@@ -218,8 +281,135 @@ header {
 
 .sector_pill {
     background: #F0F1F1;
-    /* border-radius: 12px; */
     color: #667174;
     font-weight: 500;
     font-size: 12px;
+}
+
+
+/* ---------------------------------
+    *****PROFILE BIO STYLES***** 
+------------------------------------*/
+
+.contact_details>label {
+    color: #667174;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.contact_details>P {
+    line-height: 26px;
+    color: #001218;
+}
+
+
+/* ---------------------------------
+    *****EDIT PROFILE FORM AREA HERE***** 
+------------------------------------*/
+
+.edit_link {
+    color: #667174;
+    font-weight: 500;
+    line-height: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.edit_link:hover {
+    color: #006EF0;
+}
+
+.edit_link.active {
+    border-bottom: 4px solid #006EF0;
+    color: #006EF0;
+    font-weight: bold;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+.visitor_see {
+    line-height: 26px;
+    color: #001218;
+}
+
+.contact_display {
+    line-height: 20px;
+    font-weight: bold;
+    color: #667174;
+}
+
+.contact_label {
+    line-height: 20px;
+    color: #001218;
+}
+
+.toggle_input {
+    margin-top: 3px
+}
+
+select {
+    color: #1A2A2F;
+    opacity: 0.75;
+    font-size: 14px !important;
+}
+
+.save_info_btn {
+    background: #006EF0;
+    box-shadow: 0px 8px 8px -4px rgba(0, 141, 192, 0.125), 0px 0px 4px rgba(0, 141, 192, 0.25);
+    border-radius: 16px;
+    color: white;
+    font-weight: bold;
+    padding: 12px 18px;
+}
+
+.save_info_btn span {
+    color: white;
+    font-weight: bold;
+}
+
+.qualify_text {
+    line-height: 26px;
+    color: #001218;
+    opacity: 0.5;
+}
+
+textarea {
+    resize: none !important;
+}
+
+.select_toggle {
+    top: 30px;
+    right: 0;
+    margin-right: 10px;
+}
+
+.scrollable {
+    overflow-y: auto;
+    height: 500px;
+}
+
+label {
+    letter-spacing: 0.05em;
+    color: #1A2A2F;
+    opacity: 0.75;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.border-b-3 {
+    border-bottom-width: 2px;
+}
+
+input {
+    color: #1A2A2F !important;
+    font-family: var(--main-font) !important;
+    font-weight: normal;
+    font-size: 14px !important;
+}
+
+.bg-gray-100 {
+    background: #FCFCFC !important;
 }

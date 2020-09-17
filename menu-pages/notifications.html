@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Assets/Css/profile.css" rel="stylesheet">
+    <link href="../Assets/Css/index.css" rel="stylesheet">
+    <!-- Tailwind here -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Notificaions -</title>
+</head>
+
+<body>
+    <!-- Nav bar here -->
+    <header>
+        <nav class="flex items-center justify-between flex-wrap bg-white-500 p-2 lg:px-24">
+            <div class="flex items-center flex-shrink-0 text-black mr-6">
+
+                <a href=""><span class="font-semibold logo text-xl tracking-tight"><svg width="40" height="40"
+                            viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20.0001" r="18" fill="#006EF0" />
+                            <path
+                                d="M17.7139 17.0353C19.9602 16.6692 21.2343 18.6186 21.4665 18.6062C21.6988 18.5939 22.2015 18.1495 22.724 17.4198C23.2466 16.6901 23.5335 16.3429 23.5335 15.9843C23.5335 15.6256 22.7555 14.797 22.1274 14.3595C21.4993 13.9221 21.3969 13.6217 20.2299 13.349C19.0629 13.0763 18.5171 12.8667 16.8914 13.1016C15.2657 13.3365 14.594 13.9371 14.0631 14.3595C13.5322 14.782 11.4833 16.8589 11.2169 18.9067L11.211 18.9521C10.9461 20.9867 10.6639 23.1544 12.1656 25.4749C13.6785 27.8125 15.3838 28.4121 15.5985 28.4992C15.8131 28.5863 17.8128 29.0376 18.7944 28.9974C20.8974 28.9113 21.3448 28.1307 22.1274 28.0011C22.91 27.8714 24.8179 28.8018 24.9736 28.5063C25.1293 28.2108 24.5443 26.5056 24.5751 24.4616C24.6059 22.4176 24.9241 21.0622 24.6777 20.5922C24.4314 20.1222 20.9625 19.9931 20.5102 20.4983C20.058 21.0035 20.7043 24.3283 20.7043 24.3283C20.7043 24.3283 19.4781 24.8688 18.6571 24.8688C17.8361 24.8688 17.3003 24.904 16.3075 24.2461C15.3148 23.5882 14.8515 21.6496 15.0169 20.4983C15.1824 19.3469 15.4676 17.4014 17.7139 17.0353Z"
+                                fill="white" />
+                            <ellipse cx="29" cy="13" rx="2" ry="2" fill="white" />
+                        </svg>
+                    </span></a>
+            </div>
+            <div>
+                <p class="posts_title pt-2 text-lg">Your Notifications</p>
+            </div>
+            <!-- Search region here -->
+            <div>
+                <div class="pt-2 relative mx-auto text-gray-600">
+                    <input class="border-none  bg-white  border-gray-600  h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none" type="search" name="search" placeholder="Search GClout">
+                    <button type="submit" class="absolute right-0 top-0 mt-4  focus:outline-none active:outline-none">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                                stroke="#001218" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M21.0004 21L16.6504 16.65" stroke="#001218" stroke-width="2"
+                                stroke-linejoin="bevel" />
+                        </svg>
+
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Platform Area here -->
+    <main>
+        <div class="flex mb-4 lg:px-24 ">
+            <!-- Side bar here -->
+            <div class="w-1/4 pt-6 ">
+                <!-- profile region here -->
+                <div class="profile_holder flex px-4 py-3">
+                    <img src="../Assets/img/Vectors/profile-img.png" alt="Profile Image">
+                    <div class="profile_name mx-3">
+                        <p class="pt-1 text-sm">John Doe</p>
+                        <span class="text-xs flex flex-row "> 200 Friends
+
+                            <span class="pt-2 px-1"><svg width="2" height="2" viewBox="0 0 2 2" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="1" cy="1" r="1" fill="#667174" />
+                                </svg>
+
+                            </span> 50 Leaders
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Navigation Bar here -->
+                <div class="mt-6 mx-3">
+                    <ul>
+                        <li class="pb-3">
+                            <a href="user-own-profile.html" class=" flex ">
+                                <span>
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.75">
+                                            <path
+                                                d="M15 21L24 14L33 21V32C33 32.5304 32.7893 33.0391 32.4142 33.4142C32.0391 33.7893 31.5304 34 31 34H17C16.4696 34 15.9609 33.7893 15.5858 33.4142C15.2107 33.0391 15 32.5304 15 32V21Z"
+                                                stroke="#1A2A2F" stroke-width="2" stroke-linecap="square"
+                                                stroke-linejoin="bevel" />
+                                            <path
+                                                d="M21 26V25L20 26L21 26ZM27 26H28L27 25V26ZM22 35V26L20 26V35H22ZM21 27H27V25H21V27ZM26 26V35H28V26H26Z"
+                                                fill="#1A2A2F" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="nav_link ">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="pb-3">
+                            <a href="lists.html" class=" flex ">
+                                <span>
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.75">
+                                            <path d="M20 18H33" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                            <path d="M20 24H33" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                            <path d="M20 30H33" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                            <path d="M15 18H15.01" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                            <path d="M15 24H15.01" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                            <path d="M15 30H15.01" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                        </g>
+                                    </svg>
+                                </span>
+                                <span class="nav_link">Lists</span>
+                            </a>
+                        </li>
+
+                        <li class="pb-3">
+                            <a href="notifications.html" class=" flex ">
+                                <span>
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.75">
+                                            <path
+                                                d="M30 20C30 18.4087 29.3679 16.8826 28.2426 15.7574C27.1174 14.6321 25.5913 14 24 14C22.4087 14 20.8826 14.6321 19.7574 15.7574C18.6321 16.8826 18 18.4087 18 20C18 27 15 29 15 29H33C33 29 30 27 30 20Z"
+                                                stroke="#1A2A2F" stroke-width="2" stroke-linecap="square"
+                                                stroke-linejoin="bevel" />
+                                            <path
+                                                d="M25.7295 33C25.5537 33.3031 25.3014 33.5547 24.9978 33.7295C24.6941 33.9044 24.3499 33.9965 23.9995 33.9965C23.6492 33.9965 23.3049 33.9044 23.0013 33.7295C22.6977 33.5547 22.4453 33.3031 22.2695 33"
+                                                stroke="#1A2A2F" stroke-width="2" stroke-linecap="square"
+                                                stroke-linejoin="bevel" />
+                                        </g>
+                                    </svg>
+
+                                </span>
+                                <span class="nav_link">Notifications</span>
+                            </a>
+                        </li>
+
+                        <li class="pb-3">
+                            <a href="messages.html" class=" flex ">
+                                <span>
+                                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.75">
+                                            <path
+                                                d="M16 16H32C33.1 16 34 16.9 34 18V30C34 31.1 33.1 32 32 32H16C14.9 32 14 31.1 14 30V18C14 16.9 14.9 16 16 16Z"
+                                                stroke="#1A2A2F" stroke-width="2" stroke-linecap="square"
+                                                stroke-linejoin="bevel" />
+                                            <path d="M33 19L24 25L15 19" stroke="#1A2A2F" stroke-width="2"
+                                                stroke-linecap="square" stroke-linejoin="bevel" />
+                                        </g>
+                                    </svg>
+
+                                </span>
+                                <span class="nav_link">Messages</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Line divider here -->
+            <div class="border_right"></div>
+
+            <!-- Timeline  Area here -->
+            <div class="w-6/12 notification_arena ">
+                <!-- Notifications Area here -->
+
+                <!-- Liked post notification component -->
+                <div class="border_top mt-6 mx-5">
+                    <div class="flex mt-3">
+                        <div>
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 13.5V9.5C18 8.70435 17.6839 7.94129 17.1213 7.37868C16.5587 6.81607 15.7956 6.5 15 6.5L11 15.5V26.5H22.28C22.7623 26.5055 23.2304 26.3364 23.5979 26.024C23.9654 25.7116 24.2077 25.2769 24.28 24.8L25.66 15.8C25.7035 15.5134 25.6842 15.2207 25.6033 14.9423C25.5225 14.6638 25.3821 14.4063 25.1919 14.1875C25.0016 13.9687 24.7661 13.7939 24.5016 13.6752C24.2371 13.5565 23.9499 13.4967 23.66 13.5H18ZM11 26.5H8C7.46957 26.5 6.96086 26.2893 6.58579 25.9142C6.21071 25.5391 6 25.0304 6 24.5V17.5C6 16.9696 6.21071 16.4609 6.58579 16.0858C6.96086 15.7107 7.46957 15.5 8 15.5H11" fill="#006EF0" fill-opacity="0.5"/>
+                            <path d="M11 26.5H8C7.46957 26.5 6.96086 26.2893 6.58579 25.9142C6.21071 25.5391 6 25.0304 6 24.5V17.5C6 16.9696 6.21071 16.4609 6.58579 16.0858C6.96086 15.7107 7.46957 15.5 8 15.5H11M18 13.5V9.5C18 8.70435 17.6839 7.94129 17.1213 7.37868C16.5587 6.81607 15.7956 6.5 15 6.5L11 15.5V26.5H22.28C22.7623 26.5055 23.2304 26.3364 23.5979 26.024C23.9654 25.7116 24.2077 25.2769 24.28 24.8L25.66 15.8C25.7035 15.5134 25.6842 15.2207 25.6033 14.9423C25.5225 14.6638 25.3821 14.4063 25.1919 14.1875C25.0016 13.9687 24.7661 13.7939 24.5016 13.6752C24.2371 13.5565 23.9499 13.4967 23.66 13.5H18Z" stroke="#006EF0" stroke-width="2" stroke-linejoin="bevel"/>
+                            </svg>
+                        </div>
+                        <img src="../Assets/img/Vectors/user.png" class="mx-3" alt="User">
+                    </div>
+                    <!-- Main notification here -->
+                    <div class="mt-4 mx-10">
+                        <p class="dark leading-5 text-sm font-bold">John Doe <span class="font-normal">liked your post:</span></p>
+                        <!-- post here -->
+                        <p class="leading-5 text-sm font-normal light_gray pt-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed varius eros. Cras tristique placerat arcu in semper... </p>
+                    </div>
+
+                </div>
+
+                <!-- Comment notification component -->
+                <div class="border_top mt-6 mx-5">
+                    <div class="flex mt-3">
+                        <div>
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25 20C25 20.5304 24.7893 21.0391 24.4142 21.4142C24.0391 21.7893 23.5304 22 23 22H20L16 26L15.25 22H8.35C7.60442 22 7 21.3956 7 20.65V10C7 9.46957 7.21071 8.96086 7.58579 8.58579C7.96086 8.21071 8.46957 8 9 8H23C23.5304 8 24.0391 8.21071 24.4142 8.58579C24.7893 8.96086 25 9.46957 25 10V20Z" fill="#006EF0" fill-opacity="0.5" stroke="#006EF0" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+
+                        </div>
+                        <img src="../Assets/img/Vectors/user.png" class="mx-3" alt="User">
+                    </div>
+                    <!-- Main notification here -->
+                    <div class="mt-4 mx-10">
+                        <p class="dark leading-5 text-sm font-bold">John Doe <span class="font-normal">commented on your post:</span></p>
+                        <!-- post here -->
+                        <p class="leading-5 text-sm font-normal light_gray pt-3"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sed varius eros. Cras tristique placerat arcu in semper... </p>
+                    </div>
+
+                </div>
+
+                <!-- Accepted friend request notification component -->
+                <div class="border_top mt-6 mx-5">
+                    <div class="flex mt-3">
+                        <div>
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 26V24C20 22.9391 19.5786 21.9217 18.8284 21.1716C18.0783 20.4214 17.0609 20 16 20H9C7.93913 20 6.92172 20.4214 6.17157 21.1716C5.42143 21.9217 5 22.9391 5 24V26" fill="#006EF0" fill-opacity="0.5"/>
+                                <path d="M20 26V24C20 22.9391 19.5786 21.9217 18.8284 21.1716C18.0783 20.4214 17.0609 20 16 20H9C7.93913 20 6.92172 20.4214 6.17157 21.1716C5.42143 21.9217 5 22.9391 5 24V26H20Z" stroke="#006EF0" stroke-width="2" stroke-linejoin="bevel"/>
+                                <path d="M12.5 16C14.7091 16 16.5 14.2091 16.5 12C16.5 9.79086 14.7091 8 12.5 8C10.2909 8 8.5 9.79086 8.5 12C8.5 14.2091 10.2909 16 12.5 16Z" fill="#006EF0" fill-opacity="0.5" stroke="#006EF0" stroke-width="2" stroke-linejoin="bevel"/>
+                                <path d="M24 13V19" stroke="#006EF0" stroke-width="2" stroke-linejoin="bevel"/>
+                                <path d="M27 16H21" stroke="#006EF0" stroke-width="2" stroke-linejoin="bevel"/>
+                                </svg>
+                        </div>
+                        <img src="../Assets/img/Vectors/user.png" class="mx-3" alt="User">
+                    </div>
+                    <!-- Main notification here -->
+                    <div class="mt-4 mx-10">
+                        <p class="dark leading-5 text-sm font-bold">John Doe <span class="font-normal">accepted your friend request</span></p>
+
+                    </div>
+
+                </div>
+
+                <!-- Followed Page  notification component -->
+                <div class="border_top mt-6 mx-5">
+                    <div class="flex mt-3">
+                        <div>
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 26V24C20 22.9391 19.5786 21.9217 18.8284 21.1716C18.0783 20.4214 17.0609 20 16 20H9C7.93913 20 6.92172 20.4214 6.17157 21.1716C5.42143 21.9217 5 22.9391 5 24V26" fill="#006EF0" fill-opacity="0.5"/>
+                                <path d="M20 26V24C20 22.9391 19.5786 21.9217 18.8284 21.1716C18.0783 20.4214 17.0609 20 16 20H9C7.93913 20 6.92172 20.4214 6.17157 21.1716C5.42143 21.9217 5 22.9391 5 24V26H20Z" stroke="#006EF0" stroke-width="2" stroke-linejoin="bevel"/>
+                                <path d="M12.5 16C14.7091 16 16.5 14.2091 16.5 12C16.5 9.79086 14.7091 8 12.5 8C10.2909 8 8.5 9.79086 8.5 12C8.5 14.2091 10.2909 16 12.5 16Z" fill="#006EF0" fill-opacity="0.5" stroke="#006EF0" stroke-width="2" stroke-linejoin="bevel"/>
+                                <path d="M24 13V19" stroke="#006EF0" stroke-width="2" stroke-linejoin="bevel"/>
+                                <path d="M27 16H21" stroke="#006EF0" stroke-width="2" stroke-linejoin="bevel"/>
+                                </svg>
+                        </div>
+                        <img src="../Assets/img/Vectors/user.png" class="mx-3" alt="User">
+                    </div>
+                    <!-- Main notification here -->
+                    <div class="mt-4 mx-10">
+                        <p class="dark leading-5 text-sm font-bold">John Doe <span class="font-normal">followed your page </span> Abian’s Hangout</p>
+
+                    </div>
+
+                </div>
+
+                <!-- verification acceptance  notification component -->
+                <div class="border_top mt-6 mx-5">
+                    <div class="flex mt-3">
+                        <div>
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="17" r="10" fill="white"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M26 17C26 19.6522 24.9464 22.1957 23.0711 24.0711C21.1957 25.9464 18.6522 27 16 27C13.3478 27 10.8043 25.9464 8.92893 24.0711C7.05357 22.1957 6 19.6522 6 17C6 14.3478 7.05357 11.8043 8.92893 9.92893C10.8043 8.05357 13.3478 7 16 7C18.6522 7 21.1957 8.05357 23.0711 9.92893C24.9464 11.8043 26 14.3478 26 17ZM21.0375 13.2125C20.9482 13.1235 20.8419 13.0535 20.7249 13.0065C20.6079 12.9596 20.4827 12.9367 20.3567 12.9393C20.2306 12.9418 20.1064 12.9698 19.9914 13.0215C19.8765 13.0731 19.7731 13.1475 19.6875 13.24L15.3462 18.7712L12.73 16.1537C12.5523 15.9881 12.3172 15.898 12.0743 15.9023C11.8315 15.9066 11.5997 16.005 11.428 16.1767C11.2562 16.3485 11.1578 16.5802 11.1535 16.8231C11.1492 17.066 11.2394 17.301 11.405 17.4788L14.7125 20.7875C14.8016 20.8764 14.9077 20.9465 15.0245 20.9936C15.1413 21.0406 15.2663 21.0637 15.3922 21.0613C15.5181 21.059 15.6422 21.0313 15.7571 20.98C15.8721 20.9286 15.9755 20.8547 16.0612 20.7625L21.0513 14.525C21.2214 14.3481 21.3153 14.1116 21.313 13.8662C21.3107 13.6208 21.211 13.3861 21.0375 13.2125Z" fill="#006EF0"/>
+                                </svg>
+                        </div>
+                        <img src="../Assets/img/Vectors/user.png" class="mx-3" alt="User">
+                    </div>
+                    <!-- Main notification here -->
+                    <div class="mt-4 mx-10">
+                        <p class="dark leading-5 text-sm font-bold"> <span class="font-normal">You have been verified as  </span> Minister of Enjoyment, Nigeria </p>
+
+                    </div>
+
+                </div>
+
+                <!-- verification denial  notification component -->
+                <div class="border_top mt-6 mx-5">
+                    <div class="flex mt-3">
+                        <div>
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="17" r="10" fill="#F02B00" fill-opacity="0.1"/>
+                                <path d="M20 13L12 21" stroke="#F02B00" stroke-width="1.5" stroke-linejoin="round"/>
+                                <path d="M12 13L20 21" stroke="#F02B00" stroke-width="1.5" stroke-linejoin="round"/>
+                                </svg>
+                        </div>
+                        <img src="../Assets/img/Vectors/user.png" class="mx-3" alt="User">
+                    </div>
+                    <!-- Main notification here -->
+                    <div class="mt-4 mx-10">
+                        <!-- Denial message here -->
+                        <p class="leading-5 text-sm font-normal light_gray ">Your verification request has been denied, The details you have provided are not sufficient </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <!-- Line divider here -->
+            <div class="border_right "></div>
+
+            <!-- friend suggestion Area -->
+            <div class="w-1/4 pt-4 ml-8 ">
+                <!-- Trending region here -->
+                <div class="trending_holder mt-1 mb-10 p-4 ">
+                    <h4 class="friend_suggestion text-lg">Trending on GClout</h4>
+                    <!-- trends here -->
+                    <div class="border_top mt-3">
+                        <p class="timeline_indicator text-xs pt-2">Politics</p>
+                        <p class="pt-2 text-sm friend_suggestion">#Presidency</p>
+                        <p class="timeline_indicator text-xs pt-2">12K posts</p>
+                    </div>
+                    <div class="border_top mt-3">
+                        <p class="timeline_indicator text-xs pt-2">Infrastructure</p>
+                        <p class="pt-2 text-sm friend_suggestion">#gwariconsistuency</p>
+                        <p class="timeline_indicator text-xs pt-2">50K posts</p>
+                    </div>
+                    <div class="border_top mt-3">
+                        <p class="timeline_indicator text-xs pt-2">Agriculture</p>
+                        <p class="pt-2 text-sm friend_suggestion">#seedsforfarmers</p>
+                        <p class="timeline_indicator text-xs pt-2">1K posts</p>
+                    </div>
+                    <div class="border_top mt-3">
+                        <p class="timeline_indicator text-xs pt-2">Economy</p>
+                        <p class="pt-2 text-sm friend_suggestion">#dollartonaira</p>
+                        <p class="timeline_indicator text-xs pt-2">250K posts</p>
+                    </div>
+                    <!-- See more button -->
+                    <div class=" mt-3 border_top">
+                        <button class="filter_posts border-none mt-3 focus:outline-none text-sm font-bold">See more</button>
+                    </div>
+                </div>
+
+
+                <p class="text-lg friend_suggestion">People you may know </p>
+                <!-- Suggested friends here -->
+                <div class="suggested_wrapper border_top mt-3">
+                    <div class="flex">
+                        <div class="flex-1">
+                            <div class=" flex pt-3">
+                                <img src="../Assets/img/Vectors/profile-img.png" alt="Profile Image">
+                                <div class="profile_name mx-3">
+                                    <p class="pt-1 text-sm">John Doe </p>
+                                    <span class="text-xs flex flex-row "> Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add Button here -->
+                        <div class="pt-3">
+                            <button class="focus:outline-none add_btn text-sm mx-2">Add</button>
+                        </div>
+                        <!-- Cancel Button here -->
+                        <div class="pt-3"><button class="focus:outline-none pt-2"><svg width="24" height="25"
+                                    viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 6.5L6 18.5" stroke="#E6E7E8" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M6 6.5L18 18.5" stroke="#E6E7E8" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Suggested friends 2 -->
+                <div class="suggested_wrapper border_top mt-3">
+                    <div class="flex">
+                        <div class="flex-1">
+                            <div class=" flex pt-3">
+                                <img src="../Assets/img/Vectors/profile-img.png" alt="Profile Image">
+                                <div class="profile_name mx-3">
+                                    <p class="pt-1 text-sm">John Doe</p>
+                                    <span class="text-xs flex flex-row "> Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add Button here -->
+                        <div class="pt-3">
+                            <button class="focus:outline-none add_btn text-sm mx-2">Add</button>
+                        </div>
+                        <!-- Cancel Button here -->
+                        <div class="pt-3"><button class="focus:outline-none pt-2"><svg width="24" height="25"
+                                    viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 6.5L6 18.5" stroke="#E6E7E8" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M6 6.5L18 18.5" stroke="#E6E7E8" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Suggested friends 3 -->
+                <div class="suggested_wrapper border_top mt-3">
+                    <div class="flex">
+                        <div class="flex-1">
+                            <div class=" flex pt-3">
+                                <img src="../Assets/img/Vectors/profile-img.png" alt="Profile Image">
+                                <div class="profile_name mx-3">
+                                    <p class="pt-1 text-sm">John Doe</p>
+                                    <span class="text-xs flex flex-row "> Lagos, Nigeria</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Add Button here -->
+                        <div class="pt-3">
+                            <button class="focus:outline-none add_btn text-sm mx-2">Add</button>
+                        </div>
+                        <!-- Cancel Button here -->
+                        <div class="pt-3">
+                            <button class="focus:outline-none pt-2"><svg width="24" height="25" viewBox="0 0 24 25"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M18 6.5L6 18.5" stroke="#E6E7E8" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M6 6.5L18 18.5" stroke="#E6E7E8" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- See more button -->
+                <div class="px-3 mt-3  border_top border_bottom">
+                    <button class="filter_posts border-none focus:outline-none pt-3 pb-3 text-sm font-bold">See more</button>
+                </div>
+
+                <!-- Ads Region here -->
+                <div class="mt-8">
+                    <div class="add_background ">
+                        <div class="flex">
+                            <div class="ml-auto p-2">
+                                <button class="focus:outline-none "><svg width="24" height="25" viewBox="0 0 24 25"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="12" cy="12.5" r="12" fill="white" />
+                                        <path d="M16 8.5L8 16.5" stroke="#667174" stroke-width="2"
+                                            stroke-linejoin="bevel" />
+                                        <path d="M8 8.5L16 16.5" stroke="#667174" stroke-width="2"
+                                            stroke-linejoin="bevel" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ad company details here -->
+                    <div class=" ad_company_detail">
+                        <div class="flex p-5">
+                            <div class="mr-auto">
+                                <p class="company_name text-sm">
+                                    Jumia.ng
+                                </p>
+                            </div>
+
+                            <div>
+                                <a href="#" target="_blank"><svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M15 10.8333V15.8333C15 16.2754 14.8244 16.6993 14.5118 17.0118C14.1993 17.3244 13.7754 17.5 13.3333 17.5H4.16667C3.72464 17.5 3.30072 17.3244 2.98816 17.0118C2.67559 16.6993 2.5 16.2754 2.5 15.8333V6.66667C2.5 6.22464 2.67559 5.80072 2.98816 5.48816C3.30072 5.17559 3.72464 5 4.16667 5H9.16667"
+                                            stroke="#667174" stroke-width="2" stroke-linejoin="bevel" />
+                                        <path d="M12.5 2.5H17.5V7.5" stroke="#667174" stroke-width="2"
+                                            stroke-linejoin="bevel" />
+                                        <path d="M8.33398 11.6667L17.5007 2.5" stroke="#667174" stroke-width="2"
+                                            stroke-linejoin="bevel" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center mt-6">
+                        <p class="gclout_ad text-xs"><a href="">Advertise with Gclout</a></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+</html>

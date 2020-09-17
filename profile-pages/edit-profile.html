@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../Assets/Css/profile.css" rel="stylesheet">
+    <!-- <link href="../Assets/Css/signup.css" rel="stylesheet"> -->
     <!-- Tailwind here -->
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <title>User Profile -</title>
@@ -48,7 +49,6 @@
     </header>
 
     <!-- Platform Area here -->
-
     <main>
         <div class="flex mb-4 lg:px-24 ">
             <!-- Side bar here -->
@@ -167,10 +167,10 @@
             <!-- Line divider here -->
             <div class="border_right"></div>
 
-            <!-- Profile Area here -->
-            <div class="w-5/12 ">
+            <!-- Edit Profile Area here -->
+            <div class="w-6/12  scrollable">
                 <!-- profile back button here -->
-                <div class="flex">
+                <div class="flex border_bottom pb-3">
                     <div class="mr-auto pt-4 px-3">
                         <a href="user-own-profile.html">
                             <button class=" focus:outline-none px-4 back_btn rounded inline-flex items-center">
@@ -180,105 +180,295 @@
                                     <path d="M12 19L5 12L12 5" stroke="#1A2A2F" stroke-width="2"
                                         stroke-linejoin="bevel" />
                                 </svg>
-
                                 <span class="mx-4">Edit Profile</span>
                             </button>
                         </a>
                     </div>
-                    <div class=" pt-4 px-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z"
-                                fill="#001218" stroke="#001218" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13Z"
-                                fill="#001218" stroke="#001218" stroke-linecap="round" stroke-linejoin="round" />
-                            <path
-                                d="M5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13Z"
-                                fill="#001218" stroke="#001218" stroke-linecap="round" stroke-linejoin="round" />
-                        </svg>
-                    </div>
                 </div>
+                <!-- profile forms here -->
+                <section>
 
-                <!-- Background image here -->
-                <div class="profile__background flex mt-3 items-end bg-gray-200 h-48">
-                    <div class="flex-1 "></div>
-                    <!-- Edit background profile image here -->
-                    <div class="flex-initial  text-center px-4  m-2">
-                        <button class="focus:outline-none"><svg width="36" height="36" viewBox="0 0 36 36" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="18" cy="18" r="17" fill="#006EF0" stroke="white" stroke-width="2" />
-                                <path
-                                    d="M21.332 12.0003C21.5071 11.8252 21.715 11.6863 21.9438 11.5915C22.1725 11.4968 22.4177 11.448 22.6654 11.448C22.913 11.448 23.1582 11.4968 23.387 11.5915C23.6157 11.6863 23.8236 11.8252 23.9987 12.0003C24.1738 12.1754 24.3127 12.3832 24.4075 12.612C24.5022 12.8408 24.551 13.086 24.551 13.3336C24.551 13.5812 24.5022 13.8264 24.4075 14.0552C24.3127 14.284 24.1738 14.4919 23.9987 14.6669L14.9987 23.6669L11.332 24.6669L12.332 21.0003L21.332 12.0003Z"
-                                    stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-
-                <!-- Profile Image here -->
-                <section class="flex mx-4 ">
+                    <!-- form links here -->
                     <div>
-                        <div class="relative profile_img_div ">
-                            <img src="../Assets/img/Vectors/profile_photo.png " alt="Profile Picture ">
-                            <button class="absolute img_edit_btn focus:outline-none "><svg width="36 " height="36 "
-                                    viewBox="0 0 36 36 " fill="none " xmlns="http://www.w3.org/2000/svg ">
-                                    <circle cx="18 " cy="18 " r="17 " fill="#006EF0 " stroke="white "
-                                        stroke-width="2 " />
-                                    <path d="M21.332 12.0003C21.5071 11.8252 21.715 11.6863 21.9438 11.5915C22.1725 11.4968 22.4177 11.448 22.6654 11.448C22.913 11.448 23.1582 11.4968 23.387 11.5915C23.6157 11.6863 23.8236 11.8252 23.9987 12.0003C24.1738
-                        12.1754 24.3127 12.3832 24.4075 12.612C24.5022 12.8408 24.551 13.086 24.551 13.3336C24.551 13.5812 24.5022 13.8264 24.4075 14.0552C24.3127 14.284 24.1738 14.4919 23.9987 14.6669L14.9987 23.6669L11.332 24.6669L12.332 21.0003L21.332
-                        12.0003Z " stroke="white " stroke-width="1.5 " stroke-linecap="round "
-                                        stroke-linejoin="round " />
-                                </svg>
-                            </button>
+                        <ul class="flex overflow-hidden">
+                            <li class="flex-1 mr-2">
+                                <a class="text-center block border border-white rounded py-3 px-4 uppercase text-base edit_link active" onclick="openForm(event, 'edit_form')">edit info</a>
+                            </li>
+                            <li class="flex-1 mr-2">
+                                <a class="text-center block border border-white rounded py-3 px-4 uppercase text-base edit_link " onclick="openForm(event, 'password')">password</a>
+                            </li>
+                            <li class="flex-1 mr-2">
+                                <a class="text-center block border border-white rounded py-3 px-4 uppercase text-base edit_link" onclick="openForm(event, 'account')">account</a>
+                            </li>
+                        </ul>
+                    </div>
 
-                            <!-- Profile Details area here -->
-                            <div class="mx-2 mt-4 ">
-                                <p class="profile__name text-lg ">Jonathan Doe</p>
-                                <p class="profile__location pt-2 text-sm ">Lagos, Nigeria</p>
-                                <p class="profile__descriptions pt-3 text-sm  ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pharetra justo faucibus, blandit diam nec, ultrices neque. Nulla malesuada, massa...</p>
-                            </div>
+                    <!-- form contents here -->
+                    <div>
+                        <!-- Edit Info form here -->
+                        <div id="edit_form" class="tabcontent">
+                            <form class="w-full max-w-lg mx-3" method="POST" action="">
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="bio">
+                                            Bio (optional)
+                                        </label>
+                                        <textarea class="appearance-none block px-1 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="pol_party" type="text" placeholder="  A few words that you relate to" cols="30" rows="1"></textarea>
+                                    </div>
+                                </div>
 
-                            <div class=" mx-2 mt-3 ">
-                                <span class=" flex "> <span class="count text-sm ">200 </span> <span class="px-1 text-sm followed ">Friends</span>
-                                <span class="pt-2 px-2 ">
-                                        <svg width="2 " height="2 " viewBox="0 0 2 2 " fill="none "
-                                            xmlns="http://www.w3.org/2000/svg ">
-                                            <circle cx="1 " cy="1 " r="1 " fill="#667174 " />
+                                <div class="flex flex-wrap mt-6 relative">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="relationship">
+                                            Relationship Status
+                                        </label>
+                                        <span class="absolute select_toggle"><svg width="10" height="6"
+                                                viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path opacity="0.75" d="M1 1.00049L5 5.00049L9 1.00049" stroke="#1A2A2F"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                        <select name="" id="relationship" class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300">
+                                            <option value="PDP">Single</option>
+                                            <option value="APC">Married</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="mt-8">
+                                    <p class="text-base visitor_see">What should we show to visitors on your profile?
+                                    </p>
+                                    <div class="mt-6">
+                                        <p class="contact_display text-sm">Contact information</p>
+
+                                        <div class="flex mt-4">
+                                            <input type="checkbox" id="email_toggle" name="email_toggle" class=" toggle_input" value="my_email">
+                                            <p class="contact_label text-sm mx-2" for="email_toggle"> My email address
+                                            </p><br>
+                                        </div>
+
+                                        <div class="flex mt-4">
+                                            <input type="checkbox" id="number_toggle" name="number_toggle" class=" toggle_input" value="my_email">
+                                            <p class="contact_label text-sm mx-2" for="number_toggle"> My phone number
+                                            </p><br>
+                                        </div>
+
+                                        <div class="flex mt-4">
+                                            <input type="checkbox" id="office_toggle" name="office_toggle" class=" toggle_input" value="my_email">
+                                            <p class="contact_label text-sm mx-2" for="office_toggle"> My office address
+                                            </p><br>
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-6">
+                                        <p class="contact_display text-sm">Other information</p>
+
+                                        <div class="flex mt-4">
+                                            <input type="checkbox" id="dob_toggle" name="dob_toggle" class=" toggle_input" value="my_email">
+                                            <p class="contact_label text-sm mx-2" for="dob_toggle"> My date of birth</p>
+                                            <br>
+                                        </div>
+
+                                        <div class="flex mt-4">
+                                            <input type="checkbox" id="lga_toggle" name="lga_toggle" class=" toggle_input" value="my_email">
+                                            <p class="contact_label text-sm mx-2" for="lga_toggle"> My local government area
+                                            </p><br>
+                                        </div>
+
+                                        <div class="flex mt-4">
+                                            <input type="checkbox" id="relationship_toggle" name="relationship_toggle" class=" toggle_input" value="my_email">
+                                            <p class="contact_label text-sm mx-2" for="relationship_toggle"> My relationship status</p><br>
+                                        </div>
+                                    </div>
+
+                                    <div class='mt-8'>
+                                        <button type="submit" class="save_info_btn text-sm focus:outline-none">Save
+                                            info</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Password change form here -->
+                        <div id="password" class="tabcontent">
+                            <p class="mx-3 mt-8 mb-2 text-base contact_label">This is to change your GClout password.
+                            </p>
+                            <form class="w-full max-w-lg mx-3" method="POST" action="">
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="old_password">
+                                            Old Password
+                                        </label>
+                                        <input class="appearance-none block px-1 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="old_password" type="password" required>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="new_password">
+                                            New Password
+                                        </label>
+                                        <input class="appearance-none block px-1 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="new_password" type="password" required>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="confirm_password">
+                                            Confirm New Password
+                                        </label>
+                                        <input class="appearance-none block px-1 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="confirm_password" type="password" required>
+                                    </div>
+
+                                    <div class="mt-8 w-full">
+                                        <button type="submit" class="save_info_btn py-4 flex  w-full focus:outline-none"><span
+                                                class="text-sm">Change Password</span> <span class="ml-auto"><svg
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M3.33398 8.00049H12.6673" stroke="white" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M8 3.33398L12.6667 8.00065L8 12.6673" stroke="white"
+                                                        stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </span></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Upgrade request area -->
+                        <div id="account" class="tabcontent">
+                            <div id="upgrade_info">
+                                <p class="mx-3 mt-8 mb-2 text-base contact_label">This is to request account verification from GClout </p>
+                                <p class="text-base mx-3 qualify_text mt-6">To qualify for this you have to be one of the below:</p>
+                                <div class="flex mx-3 mt-6">
+                                    <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect opacity="0.75" y="0.000488281" width="16" height="16" rx="8"
+                                                fill="#006EF0" />
+                                            <path d="M11.1988 5.60059L6.79883 10.0006L4.79883 8.00059" stroke="white"
+                                                stroke-linejoin="bevel" />
                                         </svg>
                                     </span>
-                                <span class="count text-sm ">521 </span> <span class="px-1 text-sm followed ">Leaders</span>
-                                </span>
+                                    <p class="mx-2 text-base contact_label">An elected political office holder in your country
+                                    </p>
+                                </div>
+
+                                <div class="flex mx-3 mt-6">
+                                    <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <rect opacity="0.75" y="0.000488281" width="16" height="16" rx="8"
+                                                fill="#006EF0" />
+                                            <path d="M11.1988 5.60059L6.79883 10.0006L4.79883 8.00059" stroke="white"
+                                                stroke-linejoin="bevel" />
+                                        </svg>
+                                    </span>
+                                    <p class="mx-2 text-base contact_label">An appointed or nominated office holder in your country</p>
+                                </div>
+
+                                <div class="mt-10 w-full">
+                                    <button type="button" class="save_info_btn flex  py-4 w-full focus:outline-none" onclick="openUpgradeForm()"><span
+                                            class="text-sm">Continue</span> <span class="ml-auto"><svg width="16"
+                                                height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M3.33398 8.00049H12.6673" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M8 3.33398L12.6667 8.00065L8 12.6673" stroke="white"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span></button>
+                                </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="w-2/3 mt-3">
-                        <a href="edit-profile.html">
-                            <button class=" text-sm flex-auto edit_profile_btn focus:outline-none">Edit Profile</button>
-                        </a>
+                        <!-- Upgrade form here -->
+                        <div id="upgrade_form" class="tabcontent">
+                            <p class="mx-3 mt-8 mb-2 text-base contact_label">We’d need a few things to verify this request </p>
+                            <form class="w-full max-w-lg mx-3" method="POST" action="">
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="work_email">
+                                                Work E-mail Address
+                                            </label>
+                                        <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="work_email" type="email" placeholder="Input your work email" required>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="office">
+                                                Office
+                                            </label>
+                                        <input class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="ofice" type="text" placeholder="Input your office portfolio" required>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap mt-6 relative">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="bio">
+                                                Political Party
+                                            </label>
+                                        <span class="absolute select_toggle"><svg width="10" height="6"
+                                                    viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path opacity="0.75" d="M1 1.00049L5 5.00049L9 1.00049"
+                                                        stroke="#1A2A2F" stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        <select name="" id="" class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" required>
+                                                <option value="PDP">PDP</option>
+                                                <option value="APC">APC</option>
+                                            </select>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="pol_description">
+                                                Description
+                                            </label>
+                                        <textarea class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="pol_description" placeholder="A brief description of what you do" required cols="30" rows="1"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="flex flex-wrap mt-6">
+                                    <div class="w-full bg-gray-100">
+                                        <label class="block  tracking-wide px-2 pt-1" for="pol_added_info">
+                                                Additional Info
+                                            </label>
+                                        <textarea class="appearance-none block px-2 w-full bg-gray-100 pt-1 border-b-3 border-gray-300  focus:outline-none focus:bg-gray-100  focus:border-gray-300" id="pol_added_info" placeholder="Any thing thing you think our team should know?" cols="30" rows="1"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="mt-10 w-full">
+                                    <button type="submit" class="save_info_btn flex  py-4 w-full focus:outline-none">
+                                            <span
+                                                class="text-sm">Send Request</span> <span class="ml-auto"><svg
+                                                    width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M3.33398 8.00049H12.6673" stroke="white" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M8 3.33398L12.6667 8.00065L8 12.6673" stroke="white"
+                                                        stroke-width="2" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </span>
+                                        </button>
+                                </div>
+                            </form>
+                        </div>
 
                     </div>
                 </section>
-
-                <section class="flex mx-4">
-
-                    <div class="mr-auto">
-                        <p class="posts_title text-lg">Posts</p>
-                    </div>
-
-                    <div>
-                        <button class="filter_posts border-none focus:outline-none text-sm">Filter Posts</button>
-                    </div>
-
-                </section>
-
             </div>
 
             <!-- Line divider here -->
             <div class="border_right "></div>
 
             <!-- friend suggestion Area -->
-            <div class="w-1/3 pt-4 px-6 ">
+            <div class="w-1/4 pt-4 ml-8 ">
                 <p class="text-lg friend_suggestion">People you may know </p>
                 <!-- Suggested friends here -->
                 <div class="suggested_wrapper border_top mt-3">
@@ -370,13 +560,14 @@
                     </div>
                 </div>
 
+
                 <!-- See more button -->
-                <div class="px-3 pt-5">
-                    <button class="filter_posts border-none focus:outline-none text-sm">see more</button>
+                <div class="px-3 mt-3  border_top border_bottom">
+                    <button class="filter_posts border-none focus:outline-none pt-3 pb-3 text-sm font-bold">See more</button>
                 </div>
 
                 <!-- Ads Region here -->
-                <div class="px-2 mt-6">
+                <div class=" mt-6">
                     <div class="add_background ">
                         <div class="flex">
                             <div class="ml-auto p-2">
@@ -419,12 +610,11 @@
                     <div class="flex justify-center mt-6">
                         <p class="gclout_ad text-xs"><a href="">Advertise with Gclout</a></p>
                     </div>
-
                 </div>
             </div>
         </div>
-
     </main>
+    <script src="../Assets/js/script.js"></script>
 </body>
 
 </html>
