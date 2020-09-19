@@ -34,10 +34,30 @@
         background: #C9CDCE;
     }
     
+    .active_post {
+        border: 2px solid #006EF0;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+    
+    .active_post_button {
+        background: #006EF0;
+        color: #FFFFFF;
+    }
+    
     .trending_holder {
         background: #FFFFFF;
         box-shadow: 0px 4px 12px -4px rgba(26, 42, 47, 0.25);
         border-radius: 4px;
+    }
+    
+    .article_holder {
+        border: 2px solid #006EF0;
+        /* height: 30vh; */
+    }
+    
+    .article_header {
+        border: 2px dashed #667174;
     }
     /* ---------------------------------
     *****PAGINATION BUTTON AREA***** 

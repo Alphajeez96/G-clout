@@ -171,8 +171,8 @@
             <div class="w-6/12 ">
 
                 <!-- Post holder area here -->
-                <div class="post_holder mt-6 mx-5 border_bottom">
-                    <textarea name="" id="" cols="30" class="posts_textarea w-11/12 focus:outline-none mt-5 mx-3" rows="1" placeholder="What’s on your mind?"></textarea>
+                <div id="post_anchor" class="post_holder mt-6 mx-5 border_bottom">
+                    <textarea onkeypress="activatePost()" onblur="deactivatePost()" maxlength="30" name="" id="user_post" cols="30" class="posts_textarea w-11/12 focus:outline-none mt-5 mx-3" rows="1" placeholder="What’s on your mind?"></textarea>
                     <div class="flex mx-3 mb-3 mt-2">
                         <div class="mt-2">
                             <span class="text-sm character_count">30 characters left </span>
@@ -778,6 +778,7 @@
         </div>
 
     </main>
+    <script src="../Assets/js/script.js "></script>
 </body>
 
 </html>

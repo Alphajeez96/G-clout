@@ -43,3 +43,19 @@ window.onclick = function(event) {
         }
     }
 }
+
+// add class to post box on type
+
+const activatePost = () => {
+
+    var element = document.getElementById("post_anchor");
+    element.classList.add("active_post");
+    var postButton = document.getElementById("post_btn");
+    postButton.classList.add("active_post_button")
+}
+const deactivatePost = () => {
+    var element = document.getElementById("post_anchor");
+    element.classList.remove("active_post");
+    var postButton = document.getElementById("post_btn");
+    postButton.classList.remove("active_post_button")
+}
