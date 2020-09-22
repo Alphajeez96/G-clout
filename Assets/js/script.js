@@ -32,19 +32,19 @@ const showDropdown = () => {
 }
 
 window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        var i;
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
             }
         }
-    }
-}
 
-// add class to post box on type
+    }
+    // add class to post box on type
 
 const activatePost = () => {
 
@@ -59,3 +59,17 @@ const deactivatePost = () => {
     var postButton = document.getElementById("post_btn");
     postButton.classList.remove("active_post_button")
 }
+
+// Quill editor here
+var quill = new Quill('#editor', {
+    modules: {
+        toolbar: [
+            [{
+                header: [2, 3, 4, false]
+            }],
+            ['bold', 'italic', 'underline', 'image'],
+        ]
+    },
+    theme: 'snow',
+    placeholder: 'Write the rest of the article here',
+});
